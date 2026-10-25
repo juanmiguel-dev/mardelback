@@ -11254,5 +11254,2310 @@
         ]
       }
     ]
+  },
+  {
+    "id": "concejo-mdp",
+    "nombre": "Honorable Concejo Deliberante · General Pueyrredon",
+    "descripcion": "Galería fotográfica histórica del Honorable Concejo Deliberante del Partido de General Pueyrredon.",
+    "url": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+    "colecciones": [
+      {
+        "id": "mdp-antiguas",
+        "name": "Ciudad de Mar del Plata (Antiguas)",
+        "slug": "ciudad-de-mar-del-plata-antiguas",
+        "description": "Archivo fotográfico histórico de la ciudad de Mar del Plata publicado por el Honorable Concejo Deliberante de General Pueyrredon: postales, planos, edificios emblemáticos, ramblas, playas y puerto entre fines del siglo XIX y el siglo XX.",
+        "itemCount": 149,
+        "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+        "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(4).jpg",
+        "items": [
+          {
+            "id": 1,
+            "title": "Lanchitas (4)",
+            "description": "",
+            "slug": "lanchitas-4",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(4).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(4).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(4).jpg",
+            "metadata": []
+          },
+          {
+            "id": 2,
+            "title": "Punta Mogotes Faro",
+            "description": "",
+            "slug": "punta-mogotes-faro",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro.jpg",
+            "metadata": []
+          },
+          {
+            "id": 3,
+            "title": "Asilo Unzue",
+            "description": "",
+            "slug": "asilo-unzue",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue.jpg",
+            "metadata": []
+          },
+          {
+            "id": 4,
+            "title": "Boulevar Patricio Peralta Ramos",
+            "description": "",
+            "slug": "boulevar-patricio-peralta-ramos",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Boulevar%20Patricio%20Peralta%20Ramos.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Boulevar%20Patricio%20Peralta%20Ramos.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Boulevar%20Patricio%20Peralta%20Ramos.jpg",
+            "metadata": []
+          },
+          {
+            "id": 5,
+            "title": "Estacion Mar del Plata Sud",
+            "description": "",
+            "slug": "estacion-mar-del-plata-sud",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata_Sud.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata_Sud.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata_Sud.jpg",
+            "metadata": []
+          },
+          {
+            "id": 6,
+            "title": "Casino con Cartel",
+            "description": "",
+            "slug": "casino-con-cartel",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casino%20con%20Cartel.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casino%20con%20Cartel.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casino%20con%20Cartel.jpg",
+            "metadata": []
+          },
+          {
+            "id": 7,
+            "title": "Ex matadero Municipal hoy barrio Centenario",
+            "description": "",
+            "slug": "ex-matadero-municipal-hoy-barrio-centenario",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Ex%20matadero%20Municipal%20hoy%20barrio%20Centenario.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Ex%20matadero%20Municipal%20hoy%20barrio%20Centenario.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Ex%20matadero%20Municipal%20hoy%20barrio%20Centenario.jpg",
+            "metadata": []
+          },
+          {
+            "id": 8,
+            "title": "Iglesia de la Virgen del Rosario de Nueva Pompeya",
+            "description": "",
+            "slug": "iglesia-de-la-virgen-del-rosario-de-nueva-pompeya",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Iglesia%20de%20la%20Virgen%20del%20Rosario%20de%20Nueva%20Pompeya.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Iglesia%20de%20la%20Virgen%20del%20Rosario%20de%20Nueva%20Pompeya.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Iglesia%20de%20la%20Virgen%20del%20Rosario%20de%20Nueva%20Pompeya.jpg",
+            "metadata": []
+          },
+          {
+            "id": 9,
+            "title": "Punta Mogotes Faro 1900",
+            "description": "",
+            "slug": "punta-mogotes-faro-1900",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro%201900.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro%201900.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro%201900.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1900"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Gruta de Lourdes construccion",
+            "description": "",
+            "slug": "gruta-de-lourdes-construccion",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Gruta%20de%20Lourdes%20construccion.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Gruta%20de%20Lourdes%20construccion.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Gruta%20de%20Lourdes%20construccion.jpg",
+            "metadata": []
+          },
+          {
+            "id": 11,
+            "title": "Torre de agua Circa 1970",
+            "description": "",
+            "slug": "torre-de-agua-circa-1970",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torre%20de%20agua%20Circa%201970.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torre%20de%20agua%20Circa%201970.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torre%20de%20agua%20Circa%201970.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "Circa 1970"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "title": "Avenida Luro",
+            "description": "",
+            "slug": "avenida-luro",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Luro.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Luro.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Luro.jpg",
+            "metadata": []
+          },
+          {
+            "id": 13,
+            "title": "Playa Grande Confiteria Normandie",
+            "description": "",
+            "slug": "playa-grande-confiteria-normandie",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20Confiteria%20Normandie%20.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20Confiteria%20Normandie%20.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20Confiteria%20Normandie%20.jpg",
+            "metadata": []
+          },
+          {
+            "id": 14,
+            "title": "Vista Playa Bristol - 1926",
+            "description": "",
+            "slug": "vista-playa-bristol-1926",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Playa%20Bristol%20-%201926.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Playa%20Bristol%20-%201926.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Playa%20Bristol%20-%201926.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1926"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "title": "Palacio Municipal decada 60",
+            "description": "",
+            "slug": "palacio-municipal-decada-60",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20decada%2060.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20decada%2060.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20decada%2060.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "decada 60"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "title": "Estacion Mar del Plata Sud 1950",
+            "description": "",
+            "slug": "estacion-mar-del-plata-sud-1950",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud%201950.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud%201950.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud%201950.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1950"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "title": "Catedral 1898",
+            "description": "",
+            "slug": "catedral-1898",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201898.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201898.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201898.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1898"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "title": "Monumento a Alfonsina Storni",
+            "description": "",
+            "slug": "monumento-a-alfonsina-storni",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Monumento%20a%20Alfonsina%20Storni.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Monumento%20a%20Alfonsina%20Storni.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Monumento%20a%20Alfonsina%20Storni.jpg",
+            "metadata": []
+          },
+          {
+            "id": 19,
+            "title": "Rambla Bristol 1930",
+            "description": "",
+            "slug": "rambla-bristol-1930",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%201930.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%201930.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%201930.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1930"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "title": "Explanada Sur",
+            "description": "",
+            "slug": "explanada-sur",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sur.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sur.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sur.jpg",
+            "metadata": []
+          },
+          {
+            "id": 21,
+            "title": "Lanchitas (2)",
+            "description": "",
+            "slug": "lanchitas-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 22,
+            "title": "Implocion manzana 115",
+            "description": "",
+            "slug": "implocion-manzana-115",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Implocion%20manzana%20115.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Implocion%20manzana%20115.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Implocion%20manzana%20115.jpg",
+            "metadata": []
+          },
+          {
+            "id": 23,
+            "title": "Explanada Sud",
+            "description": "",
+            "slug": "explanada-sud",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sud.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sud.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sud.jpg",
+            "metadata": []
+          },
+          {
+            "id": 24,
+            "title": "Lanchitas en Las Toscas",
+            "description": "",
+            "slug": "lanchitas-en-las-toscas",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20en%20Las%20Toscas.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20en%20Las%20Toscas.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20en%20Las%20Toscas.jpg",
+            "metadata": []
+          },
+          {
+            "id": 25,
+            "title": "Confiteria Ariston - Playas del Sur",
+            "description": "",
+            "slug": "confiteria-ariston-playas-del-sur",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Confiteria%20Ariston%20-%20Playas%20del%20Sur.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Confiteria%20Ariston%20-%20Playas%20del%20Sur.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Confiteria%20Ariston%20-%20Playas%20del%20Sur.jpg",
+            "metadata": []
+          },
+          {
+            "id": 26,
+            "title": "Municipalidad primer edificio",
+            "description": "",
+            "slug": "municipalidad-primer-edificio",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Municipalidad%20primer%20edificio.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Municipalidad%20primer%20edificio.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Municipalidad%20primer%20edificio.jpg",
+            "metadata": []
+          },
+          {
+            "id": 27,
+            "title": "Plano Circa 1900",
+            "description": "",
+            "slug": "plano-circa-1900",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Circa%201900.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Circa%201900.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Circa%201900.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "Circa 1900"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "title": "Av Colon Castagnino - Torre Tanque",
+            "description": "",
+            "slug": "av-colon-castagnino-torre-tanque",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Av%20Colon%20Castagnino%20-%20Torre%20Tanque.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Av%20Colon%20Castagnino%20-%20Torre%20Tanque.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Av%20Colon%20Castagnino%20-%20Torre%20Tanque.jpg",
+            "metadata": []
+          },
+          {
+            "id": 29,
+            "title": "Parque Camet",
+            "description": "",
+            "slug": "parque-camet",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Parque%20Camet.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Parque%20Camet.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Parque%20Camet.jpg",
+            "metadata": []
+          },
+          {
+            "id": 30,
+            "title": "Capilla Santa Cecilia vista",
+            "description": "",
+            "slug": "capilla-santa-cecilia-vista",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20Santa%20Cecilia%20vista.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20Santa%20Cecilia%20vista.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20Santa%20Cecilia%20vista.jpg",
+            "metadata": []
+          },
+          {
+            "id": 31,
+            "title": "Plano Saladero 1866",
+            "description": "",
+            "slug": "plano-saladero-1866",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Saladero%201866.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Saladero%201866.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Saladero%201866.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1866"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "title": "Capilla y Colegio Santa Cecilia (2)",
+            "description": "",
+            "slug": "capilla-y-colegio-santa-cecilia-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20y%20Colegio%20Santa%20Cecilia%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20y%20Colegio%20Santa%20Cecilia%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20y%20Colegio%20Santa%20Cecilia%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 33,
+            "title": "Rambla (2)",
+            "description": "",
+            "slug": "rambla-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 34,
+            "title": "Estadio Minella 1978",
+            "description": "",
+            "slug": "estadio-minella-1978",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estadio%20Minella%201978.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estadio%20Minella%201978.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estadio%20Minella%201978.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1978"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "title": "Sierras de los Padres Esc Nro 49",
+            "description": "",
+            "slug": "sierras-de-los-padres-esc-nro-49",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Sierras%20de%20los%20Padres%20Esc%20Nro%2049.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Sierras%20de%20los%20Padres%20Esc%20Nro%2049.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Sierras%20de%20los%20Padres%20Esc%20Nro%2049.jpg",
+            "metadata": []
+          },
+          {
+            "id": 36,
+            "title": "Torreon 1920",
+            "description": "",
+            "slug": "torreon-1920",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%201920.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%201920.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%201920.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1920"
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "title": "Casa del Puente",
+            "description": "",
+            "slug": "casa-del-puente",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente.jpg",
+            "metadata": []
+          },
+          {
+            "id": 38,
+            "title": "Museo Victoria Ocampo",
+            "description": "",
+            "slug": "museo-victoria-ocampo",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Victoria%20Ocampo.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Victoria%20Ocampo.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Victoria%20Ocampo.jpg",
+            "metadata": []
+          },
+          {
+            "id": 39,
+            "title": "Casa del Puente (4)",
+            "description": "",
+            "slug": "casa-del-puente-4",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(4).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(4).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(4).jpg",
+            "metadata": []
+          },
+          {
+            "id": 40,
+            "title": "Lanchitas saliendo del Puerto",
+            "description": "",
+            "slug": "lanchitas-saliendo-del-puerto",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20saliendo%20del%20Puerto.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20saliendo%20del%20Puerto.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20saliendo%20del%20Puerto.jpg",
+            "metadata": []
+          },
+          {
+            "id": 41,
+            "title": "Club de Pesca Aerea",
+            "description": "",
+            "slug": "club-de-pesca-aerea",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%20Aerea.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%20Aerea.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%20Aerea.jpg",
+            "metadata": []
+          },
+          {
+            "id": 42,
+            "title": "Golf Club",
+            "description": "",
+            "slug": "golf-club",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club.jpg",
+            "metadata": []
+          },
+          {
+            "id": 43,
+            "title": "Vista del espigon",
+            "description": "",
+            "slug": "vista-del-espigon",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20del%20espigon.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20del%20espigon.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20del%20espigon.jpg",
+            "metadata": []
+          },
+          {
+            "id": 44,
+            "title": "Club de Pesca 1928",
+            "description": "",
+            "slug": "club-de-pesca-1928",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%201928.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%201928.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%201928.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1928"
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "title": "Teatro Colon frente",
+            "description": "",
+            "slug": "teatro-colon-frente",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Teatro%20Colon%20frente.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Teatro%20Colon%20frente.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Teatro%20Colon%20frente.jpg",
+            "metadata": []
+          },
+          {
+            "id": 46,
+            "title": "Rambla Bristol",
+            "description": "",
+            "slug": "rambla-bristol",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol.jpg",
+            "metadata": []
+          },
+          {
+            "id": 47,
+            "title": "Museo Mitre",
+            "description": "",
+            "slug": "museo-mitre",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Mitre.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Mitre.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Mitre.jpg",
+            "metadata": []
+          },
+          {
+            "id": 48,
+            "title": "Teatro Colon 1892",
+            "description": "",
+            "slug": "teatro-colon-1892",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Teatro%20Colon%201892.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Teatro%20Colon%201892.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Teatro%20Colon%201892.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1892"
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "title": "Escuela Nro 1 Pascuala Mugaburu",
+            "description": "",
+            "slug": "escuela-nro-1-pascuala-mugaburu",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escuela%20Nro%201%20Pascuala%20Mugaburu.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escuela%20Nro%201%20Pascuala%20Mugaburu.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escuela%20Nro%201%20Pascuala%20Mugaburu.jpg",
+            "metadata": []
+          },
+          {
+            "id": 50,
+            "title": "Punta Mogotes Faro 1935 Ford 1934",
+            "description": "",
+            "slug": "punta-mogotes-faro-1935-ford-1934",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro%201935%20Ford%201934.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro%201935%20Ford%201934.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%20Faro%201935%20Ford%201934.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1935"
+              }
+            ]
+          },
+          {
+            "id": 51,
+            "title": "Catedral",
+            "description": "",
+            "slug": "catedral",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%20.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%20.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%20.jpg",
+            "metadata": []
+          },
+          {
+            "id": 52,
+            "title": "Estacion Norte Ferroviaria",
+            "description": "",
+            "slug": "estacion-norte-ferroviaria",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferroviaria.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferroviaria.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferroviaria.jpg",
+            "metadata": []
+          },
+          {
+            "id": 53,
+            "title": "Plaza Colon",
+            "description": "",
+            "slug": "plaza-colon",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20Colon.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20Colon.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20Colon.jpg",
+            "metadata": []
+          },
+          {
+            "id": 54,
+            "title": "Vista la perla 1925",
+            "description": "",
+            "slug": "vista-la-perla-1925",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20la%20perla%201925.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20la%20perla%201925.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20la%20perla%201925.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1925"
+              }
+            ]
+          },
+          {
+            "id": 55,
+            "title": "Palacio Municipal y Teatro Colon",
+            "description": "",
+            "slug": "palacio-municipal-y-teatro-colon",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20y%20Teatro%20Colon.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20y%20Teatro%20Colon.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20y%20Teatro%20Colon.jpg",
+            "metadata": []
+          },
+          {
+            "id": 56,
+            "title": "Plaza America actual Plaza San Martin 1906",
+            "description": "",
+            "slug": "plaza-america-actual-plaza-san-martin-1906",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20America%20actual%20Plaza%20San%20Martin%201906.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20America%20actual%20Plaza%20San%20Martin%201906.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20America%20actual%20Plaza%20San%20Martin%201906.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1906"
+              }
+            ]
+          },
+          {
+            "id": 57,
+            "title": "Playa Grande (2)",
+            "description": "",
+            "slug": "playa-grande-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 58,
+            "title": "Explanada Sur 1920",
+            "description": "",
+            "slug": "explanada-sur-1920",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sur%201920.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sur%201920.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada%20Sur%201920.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1920"
+              }
+            ]
+          },
+          {
+            "id": 59,
+            "title": "Rambla Bristol (2)",
+            "description": "",
+            "slug": "rambla-bristol-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 60,
+            "title": "Vista Loma Stella Maris hacia Bristol",
+            "description": "",
+            "slug": "vista-loma-stella-maris-hacia-bristol",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Loma%20Stella%20Maris%20hacia%20Bristol.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Loma%20Stella%20Maris%20hacia%20Bristol.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Loma%20Stella%20Maris%20hacia%20Bristol.jpg",
+            "metadata": []
+          },
+          {
+            "id": 61,
+            "title": "Rambla",
+            "description": "",
+            "slug": "rambla",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla.jpg",
+            "metadata": []
+          },
+          {
+            "id": 62,
+            "title": "Puerto Circa 1920",
+            "description": "",
+            "slug": "puerto-circa-1920",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Puerto%20Circa%201920.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Puerto%20Circa%201920.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Puerto%20Circa%201920.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "Circa 1920"
+              }
+            ]
+          },
+          {
+            "id": 63,
+            "title": "Asilo Saturnino Unzue",
+            "description": "",
+            "slug": "asilo-saturnino-unzue",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Saturnino%20Unzue.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Saturnino%20Unzue.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Saturnino%20Unzue.jpg",
+            "metadata": []
+          },
+          {
+            "id": 64,
+            "title": "Torre Tanque OSSE",
+            "description": "",
+            "slug": "torre-tanque-osse",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torre%20Tanque%20OSSE.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torre%20Tanque%20OSSE.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torre%20Tanque%20OSSE.jpg",
+            "metadata": []
+          },
+          {
+            "id": 65,
+            "title": "Lanchitas",
+            "description": "",
+            "slug": "lanchitas",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas.jpg",
+            "metadata": []
+          },
+          {
+            "id": 66,
+            "title": "Palacio Municipal, plaza y Teatro Colon",
+            "description": "",
+            "slug": "palacio-municipal-plaza-y-teatro-colon",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%2C%20plaza%20y%20Teatro%20Colon.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%2C%20plaza%20y%20Teatro%20Colon.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%2C%20plaza%20y%20Teatro%20Colon.jpg",
+            "metadata": []
+          },
+          {
+            "id": 67,
+            "title": "Complejo Bristol Pileta Cubierta",
+            "description": "",
+            "slug": "complejo-bristol-pileta-cubierta",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Complejo%20Bristol%20Pileta%20Cubierta.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Complejo%20Bristol%20Pileta%20Cubierta.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Complejo%20Bristol%20Pileta%20Cubierta.jpg",
+            "metadata": []
+          },
+          {
+            "id": 68,
+            "title": "Puerto Construccion",
+            "description": "",
+            "slug": "puerto-construccion",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Puerto%20Construccion.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Puerto%20Construccion.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Puerto%20Construccion.jpg",
+            "metadata": []
+          },
+          {
+            "id": 69,
+            "title": "Rambla Bristol y Club MdP",
+            "description": "",
+            "slug": "rambla-bristol-y-club-mdp",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20y%20Club%20MdP.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20y%20Club%20MdP.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20y%20Club%20MdP.jpg",
+            "metadata": []
+          },
+          {
+            "id": 70,
+            "title": "Lanchitas (3)",
+            "description": "",
+            "slug": "lanchitas-3",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(3).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(3).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20(3).jpg",
+            "metadata": []
+          },
+          {
+            "id": 71,
+            "title": "Oleo de la muni - MDP 1870",
+            "description": "",
+            "slug": "oleo-de-la-muni-mdp-1870",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Oleo%20de%20la%20muni%20-%20MDP%201870.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Oleo%20de%20la%20muni%20-%20MDP%201870.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Oleo%20de%20la%20muni%20-%20MDP%201870.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1870"
+              }
+            ]
+          },
+          {
+            "id": 72,
+            "title": "Escollera Norte, en construccion",
+            "description": "",
+            "slug": "escollera-norte-en-construccion",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escollera%20Norte%2C%20en%20construccion.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escollera%20Norte%2C%20en%20construccion.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escollera%20Norte%2C%20en%20construccion.jpg",
+            "metadata": []
+          },
+          {
+            "id": 73,
+            "title": "Palacio Municipal y arroyo",
+            "description": "",
+            "slug": "palacio-municipal-y-arroyo",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20y%20arroyo.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20y%20arroyo.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%20y%20arroyo.jpg",
+            "metadata": []
+          },
+          {
+            "id": 74,
+            "title": "Golf Club MdP sede",
+            "description": "",
+            "slug": "golf-club-mdp-sede",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club%20MdP%20sede.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club%20MdP%20sede.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club%20MdP%20sede.jpg",
+            "metadata": []
+          },
+          {
+            "id": 75,
+            "title": "Plano de loteo",
+            "description": "",
+            "slug": "plano-de-loteo",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20de%20loteo.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20de%20loteo.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20de%20loteo.jpg",
+            "metadata": []
+          },
+          {
+            "id": 76,
+            "title": "Av Colon -loma-",
+            "description": "",
+            "slug": "av-colon-loma",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Av%20Colon%20-loma-.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Av%20Colon%20-loma-.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Av%20Colon%20-loma-.jpg",
+            "metadata": []
+          },
+          {
+            "id": 77,
+            "title": "Palacio Municipal 1926",
+            "description": "",
+            "slug": "palacio-municipal-1926",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%201926.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%201926.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%201926.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1926"
+              }
+            ]
+          },
+          {
+            "id": 78,
+            "title": "Vista ciudad circa siglo XIX",
+            "description": "",
+            "slug": "vista-ciudad-circa-siglo-xix",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20ciudad%20circa%20siglo%20XIX.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20ciudad%20circa%20siglo%20XIX.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20ciudad%20circa%20siglo%20XIX.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "siglo XIX"
+              }
+            ]
+          },
+          {
+            "id": 79,
+            "title": "Golf Club aerea",
+            "description": "",
+            "slug": "golf-club-aerea",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club%20aerea.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club%20aerea.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Golf%20Club%20aerea.jpg",
+            "metadata": []
+          },
+          {
+            "id": 80,
+            "title": "Monumento Malvinas anio 1986",
+            "description": "",
+            "slug": "monumento-malvinas-anio-1986",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Monumento%20Malvinas%20anio%201986.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Monumento%20Malvinas%20anio%201986.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Monumento%20Malvinas%20anio%201986.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1986"
+              }
+            ]
+          },
+          {
+            "id": 81,
+            "title": "Playa Grande",
+            "description": "",
+            "slug": "playa-grande",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande.jpg",
+            "metadata": []
+          },
+          {
+            "id": 82,
+            "title": "Estacion Mar del Plata sud construccion",
+            "description": "",
+            "slug": "estacion-mar-del-plata-sud-construccion",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20sud%20construccion.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20sud%20construccion.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20sud%20construccion.jpg",
+            "metadata": []
+          },
+          {
+            "id": 83,
+            "title": "Paseo Davila",
+            "description": "",
+            "slug": "paseo-davila",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Paseo%20Davila.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Paseo%20Davila.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Paseo%20Davila.jpg",
+            "metadata": []
+          },
+          {
+            "id": 84,
+            "title": "Torreon 1910",
+            "description": "",
+            "slug": "torreon-1910",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%201910.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%201910.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%201910.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1910"
+              }
+            ]
+          },
+          {
+            "id": 85,
+            "title": "Rambla Bristol (3)",
+            "description": "",
+            "slug": "rambla-bristol-3",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20(3).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20(3).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Bristol%20(3).jpg",
+            "metadata": []
+          },
+          {
+            "id": 86,
+            "title": "Club de Pesca (2)",
+            "description": "",
+            "slug": "club-de-pesca-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 87,
+            "title": "Torreon del Monje",
+            "description": "",
+            "slug": "torreon-del-monje",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje.jpg",
+            "metadata": []
+          },
+          {
+            "id": 88,
+            "title": "Playa 1928",
+            "description": "",
+            "slug": "playa-1928",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%201928.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%201928.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%201928.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1928"
+              }
+            ]
+          },
+          {
+            "id": 89,
+            "title": "Lanchitas amarre",
+            "description": "",
+            "slug": "lanchitas-amarre",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20amarre.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20amarre.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Lanchitas%20amarre.jpg",
+            "metadata": []
+          },
+          {
+            "id": 90,
+            "title": "Vista Fabrica Habanna en la costa",
+            "description": "",
+            "slug": "vista-fabrica-habanna-en-la-costa",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Fabrica%20Habanna%20en%20la%20costa.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Fabrica%20Habanna%20en%20la%20costa.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Fabrica%20Habanna%20en%20la%20costa.jpg",
+            "metadata": []
+          },
+          {
+            "id": 91,
+            "title": "Plano Playa Grande",
+            "description": "",
+            "slug": "plano-playa-grande",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Playa%20Grande.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Playa%20Grande.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20Playa%20Grande.jpg",
+            "metadata": []
+          },
+          {
+            "id": 92,
+            "title": "Casa del Puente (2)",
+            "description": "",
+            "slug": "casa-del-puente-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 93,
+            "title": "Estacion Norte Ferrocarril (2)",
+            "description": "",
+            "slug": "estacion-norte-ferrocarril-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferrocarril%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferrocarril%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferrocarril%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 94,
+            "title": "Club Mar del Plata",
+            "description": "",
+            "slug": "club-mar-del-plata",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20Mar%20del%20Plata.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20Mar%20del%20Plata.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20Mar%20del%20Plata.jpg",
+            "metadata": []
+          },
+          {
+            "id": 95,
+            "title": "Catedral 1930",
+            "description": "",
+            "slug": "catedral-1930",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201930.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201930.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201930.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1930"
+              }
+            ]
+          },
+          {
+            "id": 96,
+            "title": "Escuela Nro 1 Mugaburu y Plaza San Martin",
+            "description": "",
+            "slug": "escuela-nro-1-mugaburu-y-plaza-san-martin",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escuela%20Nro%201%20Mugaburu%20y%20Plaza%20San%20Martin.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escuela%20Nro%201%20Mugaburu%20y%20Plaza%20San%20Martin.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Escuela%20Nro%201%20Mugaburu%20y%20Plaza%20San%20Martin.jpg",
+            "metadata": []
+          },
+          {
+            "id": 97,
+            "title": "Playa Varese (2)",
+            "description": "",
+            "slug": "playa-varese-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 98,
+            "title": "Club de Pesca",
+            "description": "",
+            "slug": "club-de-pesca",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Club%20de%20Pesca.jpg",
+            "metadata": []
+          },
+          {
+            "id": 99,
+            "title": "Plaza San Martin y Diagonal Alberdi",
+            "description": "",
+            "slug": "plaza-san-martin-y-diagonal-alberdi",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20San%20Martin%20y%20Diagonal%20Alberdi.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20San%20Martin%20y%20Diagonal%20Alberdi.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20San%20Martin%20y%20Diagonal%20Alberdi.jpg",
+            "metadata": []
+          },
+          {
+            "id": 100,
+            "title": "Museo Castagnino 1910",
+            "description": "",
+            "slug": "museo-castagnino-1910",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Castagnino%201910.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Castagnino%201910.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Museo%20Castagnino%201910.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1910"
+              }
+            ]
+          },
+          {
+            "id": 101,
+            "title": "Vista Costa desde Av. Constitucion",
+            "description": "",
+            "slug": "vista-costa-desde-av-constitucion",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Costa%20desde%20Av.%20Constitucion.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Costa%20desde%20Av.%20Constitucion.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Costa%20desde%20Av.%20Constitucion.jpg",
+            "metadata": []
+          },
+          {
+            "id": 102,
+            "title": "Plano 1874 bis",
+            "description": "",
+            "slug": "plano-1874-bis",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%201874%20bis.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%201874%20bis.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%201874%20bis.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1874"
+              }
+            ]
+          },
+          {
+            "id": 103,
+            "title": "Avenida Colon",
+            "description": "",
+            "slug": "avenida-colon",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Colon.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Colon.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Colon.jpg",
+            "metadata": []
+          },
+          {
+            "id": 104,
+            "title": "Torreon del Monje 1919",
+            "description": "",
+            "slug": "torreon-del-monje-1919",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201919.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201919.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201919.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1919"
+              }
+            ]
+          },
+          {
+            "id": 105,
+            "title": "Complejo rambla Casino",
+            "description": "",
+            "slug": "complejo-rambla-casino",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Complejo%20rambla%20Casino%20.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Complejo%20rambla%20Casino%20.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Complejo%20rambla%20Casino%20.jpg",
+            "metadata": []
+          },
+          {
+            "id": 106,
+            "title": "Pileta cubierta",
+            "description": "",
+            "slug": "pileta-cubierta",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Pileta%20cubierta.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Pileta%20cubierta.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Pileta%20cubierta.jpg",
+            "metadata": []
+          },
+          {
+            "id": 107,
+            "title": "Edificio Terraza Palace",
+            "description": "",
+            "slug": "edificio-terraza-palace",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Edificio%20Terraza%20Palace.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Edificio%20Terraza%20Palace.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Edificio%20Terraza%20Palace.jpg",
+            "metadata": []
+          },
+          {
+            "id": 108,
+            "title": "Punta Iglesia",
+            "description": "",
+            "slug": "punta-iglesia",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Iglesia.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Iglesia.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Iglesia.jpg",
+            "metadata": []
+          },
+          {
+            "id": 109,
+            "title": "Playa Varese 1909",
+            "description": "",
+            "slug": "playa-varese-1909",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese%201909.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese%201909.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese%201909.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1909"
+              }
+            ]
+          },
+          {
+            "id": 110,
+            "title": "Asilo Unzue (2)",
+            "description": "",
+            "slug": "asilo-unzue-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 111,
+            "title": "Avenida Luro y diagonal Circa 1940",
+            "description": "",
+            "slug": "avenida-luro-y-diagonal-circa-1940",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Luro%20y%20diagonal%20Circa%201940.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Luro%20y%20diagonal%20Circa%201940.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Avenida%20Luro%20y%20diagonal%20Circa%201940.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "Circa 1940"
+              }
+            ]
+          },
+          {
+            "id": 112,
+            "title": "Camet Norte",
+            "description": "",
+            "slug": "camet-norte",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Camet%20Norte.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Camet%20Norte.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Camet%20Norte.jpg",
+            "metadata": []
+          },
+          {
+            "id": 113,
+            "title": "Rambla Paseo (2)",
+            "description": "",
+            "slug": "rambla-paseo-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Paseo%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Paseo%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Paseo%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 114,
+            "title": "Vista decada 40",
+            "description": "",
+            "slug": "vista-decada-40",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20decada%2040.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20decada%2040.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20decada%2040.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "decada 40"
+              }
+            ]
+          },
+          {
+            "id": 115,
+            "title": "Torreon del Monje 1905",
+            "description": "",
+            "slug": "torreon-del-monje-1905",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201905.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201905.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201905.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1905"
+              }
+            ]
+          },
+          {
+            "id": 116,
+            "title": "Hotel Bristol",
+            "description": "",
+            "slug": "hotel-bristol",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Hotel%20Bristol.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Hotel%20Bristol.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Hotel%20Bristol.jpg",
+            "metadata": []
+          },
+          {
+            "id": 117,
+            "title": "Estacion Norte Ferrocarril",
+            "description": "",
+            "slug": "estacion-norte-ferrocarril",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferrocarril.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferrocarril.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Norte%20Ferrocarril.jpg",
+            "metadata": []
+          },
+          {
+            "id": 118,
+            "title": "Plano recorrido Padre cardiel",
+            "description": "",
+            "slug": "plano-recorrido-padre-cardiel",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20recorrido%20Padre%20cardiel.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20recorrido%20Padre%20cardiel.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%20recorrido%20Padre%20cardiel.jpg",
+            "metadata": []
+          },
+          {
+            "id": 119,
+            "title": "Palacio Municipal 1889",
+            "description": "",
+            "slug": "palacio-municipal-1889",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%201889%20.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%201889%20.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal%201889%20.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1889"
+              }
+            ]
+          },
+          {
+            "id": 120,
+            "title": "Estacion Mar del Plata Sud del F C S",
+            "description": "",
+            "slug": "estacion-mar-del-plata-sud-del-f-c-s",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud%20del%20F%20C%20S.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud%20del%20F%20C%20S.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud%20del%20F%20C%20S.jpg",
+            "metadata": []
+          },
+          {
+            "id": 121,
+            "title": "Capilla Santa Cecilia",
+            "description": "",
+            "slug": "capilla-santa-cecilia",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20Santa%20Cecilia.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20Santa%20Cecilia.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20Santa%20Cecilia.jpg",
+            "metadata": []
+          },
+          {
+            "id": 122,
+            "title": "Palacio Municipal",
+            "description": "",
+            "slug": "palacio-municipal",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Palacio%20Municipal.jpg",
+            "metadata": []
+          },
+          {
+            "id": 123,
+            "title": "Catedral 1928",
+            "description": "",
+            "slug": "catedral-1928",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201928.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201928.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Catedral%201928.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1928"
+              }
+            ]
+          },
+          {
+            "id": 124,
+            "title": "Playa Varese",
+            "description": "",
+            "slug": "playa-varese",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Varese.jpg",
+            "metadata": []
+          },
+          {
+            "id": 125,
+            "title": "Capilla y Colegio Santa Cecilia",
+            "description": "",
+            "slug": "capilla-y-colegio-santa-cecilia",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20y%20Colegio%20Santa%20Cecilia.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20y%20Colegio%20Santa%20Cecilia.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Capilla%20y%20Colegio%20Santa%20Cecilia.jpg",
+            "metadata": []
+          },
+          {
+            "id": 126,
+            "title": "Plaza Colon Circa 1960",
+            "description": "",
+            "slug": "plaza-colon-circa-1960",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20Colon%20Circa%201960.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20Colon%20Circa%201960.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plaza%20Colon%20Circa%201960.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "Circa 1960"
+              }
+            ]
+          },
+          {
+            "id": 127,
+            "title": "Plano 1874",
+            "description": "",
+            "slug": "plano-1874",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%201874.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%201874.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Plano%201874.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1874"
+              }
+            ]
+          },
+          {
+            "id": 128,
+            "title": "Antigua Usina en la Diagonal Pueyrredon",
+            "description": "",
+            "slug": "antigua-usina-en-la-diagonal-pueyrredon",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Antigua%20Usina%20en%20la%20Diagonal%20Pueyrredon.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Antigua%20Usina%20en%20la%20Diagonal%20Pueyrredon.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Antigua%20Usina%20en%20la%20Diagonal%20Pueyrredon.jpg",
+            "metadata": []
+          },
+          {
+            "id": 129,
+            "title": "Asilo Unzue circa 1910",
+            "description": "",
+            "slug": "asilo-unzue-circa-1910",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20circa%201910.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20circa%201910.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20circa%201910.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "circa 1910"
+              }
+            ]
+          },
+          {
+            "id": 130,
+            "title": "Playa Chica al sur",
+            "description": "",
+            "slug": "playa-chica-al-sur",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Chica%20al%20sur.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Chica%20al%20sur.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Chica%20al%20sur.jpg",
+            "metadata": []
+          },
+          {
+            "id": 131,
+            "title": "Playa de los Ingleses",
+            "description": "",
+            "slug": "playa-de-los-ingleses",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20de%20los%20Ingleses.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20de%20los%20Ingleses.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20de%20los%20Ingleses.jpg",
+            "metadata": []
+          },
+          {
+            "id": 132,
+            "title": "Vista playa chica 1940",
+            "description": "",
+            "slug": "vista-playa-chica-1940",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20playa%20chica%201940.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20playa%20chica%201940.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20playa%20chica%201940.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1940"
+              }
+            ]
+          },
+          {
+            "id": 133,
+            "title": "Casa del Puente (3)",
+            "description": "",
+            "slug": "casa-del-puente-3",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(3).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(3).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Casa%20del%20Puente%20(3).jpg",
+            "metadata": []
+          },
+          {
+            "id": 134,
+            "title": "Vista Playa Bristol antigua rambla",
+            "description": "",
+            "slug": "vista-playa-bristol-antigua-rambla",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Playa%20Bristol%20antigua%20rambla.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Playa%20Bristol%20antigua%20rambla.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Vista%20Playa%20Bristol%20antigua%20rambla.jpg",
+            "metadata": []
+          },
+          {
+            "id": 135,
+            "title": "Playa Bristol",
+            "description": "",
+            "slug": "playa-bristol",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Bristol.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Bristol.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Bristol.jpg",
+            "metadata": []
+          },
+          {
+            "id": 136,
+            "title": "Estacion Mar del Plata Sud",
+            "description": "",
+            "slug": "estacion-mar-del-plata-sud-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Estacion%20Mar%20del%20Plata%20Sud.jpg",
+            "metadata": []
+          },
+          {
+            "id": 137,
+            "title": "Edificio Terraza Palace (2)",
+            "description": "",
+            "slug": "edificio-terraza-palace-2",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Edificio%20Terraza%20Palace%20(2).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Edificio%20Terraza%20Palace%20(2).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Edificio%20Terraza%20Palace%20(2).jpg",
+            "metadata": []
+          },
+          {
+            "id": 138,
+            "title": "Punta Mogotes 1900",
+            "description": "",
+            "slug": "punta-mogotes-1900",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%201900.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%201900.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Punta%20Mogotes%201900.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1900"
+              }
+            ]
+          },
+          {
+            "id": 139,
+            "title": "Rambla Paseo",
+            "description": "",
+            "slug": "rambla-paseo",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Paseo.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Paseo.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Rambla%20Paseo.jpg",
+            "metadata": []
+          },
+          {
+            "id": 140,
+            "title": "Paseo Gral. Paz",
+            "description": "",
+            "slug": "paseo-gral-paz",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Paseo%20Gral.%20Paz.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Paseo%20Gral.%20Paz.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Paseo%20Gral.%20Paz.jpg",
+            "metadata": []
+          },
+          {
+            "id": 141,
+            "title": "Parque San Martin",
+            "description": "",
+            "slug": "parque-san-martin",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Parque%20San%20Martin.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Parque%20San%20Martin.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Parque%20San%20Martin.jpg",
+            "metadata": []
+          },
+          {
+            "id": 142,
+            "title": "Loma Sta. Cecilia",
+            "description": "",
+            "slug": "loma-sta-cecilia",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Loma%20Sta.%20Cecilia.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Loma%20Sta.%20Cecilia.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Loma%20Sta.%20Cecilia.jpg",
+            "metadata": []
+          },
+          {
+            "id": 143,
+            "title": "Asilo Unzue aereo",
+            "description": "",
+            "slug": "asilo-unzue-aereo",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20aereo.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20aereo.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Asilo%20Unzue%20aereo.jpg",
+            "metadata": []
+          },
+          {
+            "id": 144,
+            "title": "Torreon del Monje 1910",
+            "description": "",
+            "slug": "torreon-del-monje-1910",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201910.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201910.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Torreon%20del%20Monje%201910.jpg",
+            "metadata": [
+              {
+                "name": "Fecha / Época",
+                "value": "1910"
+              }
+            ]
+          },
+          {
+            "id": 145,
+            "title": "Portal Estadio San Martin",
+            "description": "",
+            "slug": "portal-estadio-san-martin",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Portal%20Estadio%20San%20Martin.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Portal%20Estadio%20San%20Martin.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Portal%20Estadio%20San%20Martin.jpg",
+            "metadata": []
+          },
+          {
+            "id": 146,
+            "title": "Explanada",
+            "description": "",
+            "slug": "explanada",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Explanada.jpg",
+            "metadata": []
+          },
+          {
+            "id": 147,
+            "title": "Boceto Bustillo",
+            "description": "",
+            "slug": "boceto-bustillo",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Boceto%20Bustillo.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Boceto%20Bustillo.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Boceto%20Bustillo.jpg",
+            "metadata": []
+          },
+          {
+            "id": 148,
+            "title": "Iglesia Stella Maris",
+            "description": "",
+            "slug": "iglesia-stella-maris",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Iglesia%20Stella%20Maris.jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Iglesia%20Stella%20Maris.jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Iglesia%20Stella%20Maris.jpg",
+            "metadata": []
+          },
+          {
+            "id": 149,
+            "title": "Playa Grande (3)",
+            "description": "",
+            "slug": "playa-grande-3",
+            "urlOriginal": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/",
+            "documentType": "url",
+            "documentMimetype": "image/jpeg",
+            "document": "",
+            "documentUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20(3).jpg",
+            "thumbnail": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20(3).jpg",
+            "thumbnailUrl": "https://www.concejomdp.gov.ar/galeria/mdp/mdp_antiguas/Playa%20Grande%20(3).jpg",
+            "metadata": []
+          }
+        ]
+      }
+    ]
   }
 ]
