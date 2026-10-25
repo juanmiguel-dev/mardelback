@@ -48,8 +48,8 @@ const fields = allMeta.filter((m) => m.name !== 'Título' && m.name !== 'Descrip
     }
 
     <div class="detalle-info" data-reveal>
-      <h1>{item.title}</h1>
       <span class="detalle-vol">{coleccion.name}</span>
+      <h1>{item.title}</h1>
       {description && (
         <div class="desc-block">
           <span class="desc-label">Descripción</span>
@@ -62,7 +62,17 @@ const fields = allMeta.filter((m) => m.name !== 'Título' && m.name !== 'Descrip
           {fields.map((m) => (
             <div>
               <dt>{m.name}</dt>
-              <dd>{m.value}</dd>
+              <dd>
+                {m.value.split(' | ').length > 1 ? (
+                  <span class="chips">
+                    {m.value.split(' | ').map((p) => (
+                      <span class="chip">{p}</span>
+                    ))}
+                  </span>
+                ) : (
+                  m.value
+                )}
+              </dd>
             </div>
           ))}
         </dl>
