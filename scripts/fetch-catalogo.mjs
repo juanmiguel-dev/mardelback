@@ -11,7 +11,7 @@ const PUBLIC = path.join(ROOT, 'public');
 const PDF_DIR = path.join(PUBLIC, 'pdfs');      // documentos PDF
 const MEDIA_DIR = path.join(PUBLIC, 'media');   // documentos que no son PDF (imágenes…)
 const COVER_DIR = path.join(PUBLIC, 'covers');  // miniaturas de ítems y colecciones
-const DATA_FILE = path.join(ROOT, 'src', 'data', 'fuentes.json');
+const DATA_FILE = path.join(ROOT, 'src', 'data', 'unmdp.json');
 // Fuente: nivel intermedio entre MARDELBACK y las colecciones.
 const FUENTE = {
   id: 'biblioteca-central-unmdp',
@@ -296,9 +296,9 @@ async function main() {
     });
   }
 
-  const fuentes = [{ ...FUENTE, colecciones: result }];
+  const fuente = { ...FUENTE, colecciones: result };
 
-  await writeFile(DATA_FILE, `${JSON.stringify(fuentes, null, 2)}\n`, 'utf8');
+  await writeFile(DATA_FILE, `${JSON.stringify(fuente, null, 2)}\n`, 'utf8');
 
   const totalItems = result.reduce((a, c) => a + c.items.length, 0);
   const conDoc = result.reduce((a, c) => a + c.items.filter((i) => i.document).length, 0);

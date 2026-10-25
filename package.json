@@ -8,8 +8,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "fetch": "node scripts/fetch-catalogo.mjs",
-    "build:cf": "node scripts/fetch-catalogo.mjs --hotlink-pdfs && astro build"
+    "fetch": "node scripts/fetch-catalogo.mjs && node scripts/build-fuentes.mjs",
+    "fetch:cf": "node scripts/fetch-catalogo.mjs --hotlink-pdfs && node scripts/build-fuentes.mjs",
+    "fetch:infobae": "node scripts/fetch-infobae.mjs",
+    "build:cf": "npm run fetch:cf && astro build"
   },
   "dependencies": {
     "astro": "^5.0.0"
