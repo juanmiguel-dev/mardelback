@@ -1,6 +1,5 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import ItemCard from '../../components/ItemCard.astro';
 import PhotoCard from '../../components/PhotoCard.astro';
 import { withBase } from '../../lib/urls';
 import fuentes from '../../data/fuentes.json';
@@ -14,20 +13,8 @@ export function getStaticPaths() {
   );
 }
 
-const MASONRY_SLUGS = new Set([
-  'la-historia-de-mar-del-plata-en-50-fotos',
-  'ciudad-de-mar-del-plata-antiguas',
-  'fotos-de-familia',
-  'fotografias',
-  'postales',
-  'chalets-de-mar-del-plata',
-  'publicidades',
-  'ex-libris',
-]);
-
 const { coleccion, fuente } = Astro.props;
 const items = coleccion.items;
-const isMasonry = MASONRY_SLUGS.has(coleccion.slug);
 ---
 
 <Layout title={coleccion.name}>
@@ -53,76 +40,66 @@ const isMasonry = MASONRY_SLUGS.has(coleccion.slug);
 
   <p id="result-count" class="result-count"></p>
 
-  {isMasonry ? (
-    <section class="masonry" id="grid">
-      {items.map((item) => (
-        <PhotoCard item={item} coleccionSlug={coleccion.slug} />
-      ))}
-    </section>
-  ) : (
-    <section class="grid" id="grid">
-      {items.map((item) => (
-        <ItemCard item={item} coleccionSlug={coleccion.slug} />
-      ))}
-    </section>
-  )}
+  <section class="masonry" id="grid">
+    {items.map((item) => (
+      <PhotoCard item={item} coleccionSlug={coleccion.slug} />
+    ))}
+  </section>
 
-  {isMasonry && (
-    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
-      <div class="lightbox-backdrop" data-lightbox-close></div>
-      <div class="lightbox-dialog" role="document">
-        <header class="lightbox-header">
-          <span class="lightbox-counter" id="lb-counter"></span>
-          <button
-            type="button"
-            class="lightbox-btn lightbox-close"
-            data-lightbox-close
-            aria-label="Cerrar visor"
-          >
-            ✕
-          </button>
-        </header>
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-backdrop" data-lightbox-close></div>
+    <div class="lightbox-dialog" role="document">
+      <header class="lightbox-header">
+        <span class="lightbox-counter" id="lb-counter"></span>
+        <button
+          type="button"
+          class="lightbox-btn lightbox-close"
+          data-lightbox-close
+          aria-label="Cerrar visor"
+        >
+          ✕
+        </button>
+      </header>
 
-        <div class="lightbox-stage">
-          <button
-            type="button"
-            class="lightbox-btn lightbox-nav lightbox-prev"
-            id="lb-prev"
-            aria-label="Foto anterior"
-          >
-            ‹
-          </button>
-          <figure class="lightbox-figure">
-            <img id="lb-img" src="" alt="" />
-          </figure>
-          <button
-            type="button"
-            class="lightbox-btn lightbox-nav lightbox-next"
-            id="lb-next"
-            aria-label="Foto siguiente"
-          >
-            ›
-          </button>
-        </div>
-
-        <footer class="lightbox-footer">
-          <div class="lightbox-info">
-            <h2 class="lightbox-title" id="lb-title"></h2>
-            <p class="lightbox-desc" id="lb-desc"></p>
-            <div class="lightbox-meta" id="lb-meta"></div>
-          </div>
-          <div class="lightbox-actions">
-            <a class="btn btn-sm" id="lb-href" href="#">
-              Ver ficha
-            </a>
-            <a class="btn btn-outline btn-sm" id="lb-full" href="#" target="_blank" rel="noopener">
-              Imagen original ↗
-            </a>
-          </div>
-        </footer>
+      <div class="lightbox-stage">
+        <button
+          type="button"
+          class="lightbox-btn lightbox-nav lightbox-prev"
+          id="lb-prev"
+          aria-label="Anterior"
+        >
+          ‹
+        </button>
+        <figure class="lightbox-figure">
+          <img id="lb-img" src="" alt="" />
+        </figure>
+        <button
+          type="button"
+          class="lightbox-btn lightbox-nav lightbox-next"
+          id="lb-next"
+          aria-label="Siguiente"
+        >
+          ›
+        </button>
       </div>
+
+      <footer class="lightbox-footer">
+        <div class="lightbox-info">
+          <h2 class="lightbox-title" id="lb-title"></h2>
+          <p class="lightbox-desc" id="lb-desc"></p>
+          <div class="lightbox-meta" id="lb-meta"></div>
+        </div>
+        <div class="lightbox-actions">
+          <a class="btn btn-sm" id="lb-href" href="#">
+            Ver ficha
+          </a>
+          <a class="btn btn-outline btn-sm" id="lb-full" href="#" target="_blank" rel="noopener">
+            Imagen original ↗
+          </a>
+        </div>
+      </footer>
     </div>
-  )}
+  </div>
 </Layout>
 
 <script>
@@ -148,7 +125,7 @@ const isMasonry = MASONRY_SLUGS.has(coleccion.slug);
   search.addEventListener('input', applyFilter);
   applyFilter();
 
-  // Lightbox para colecciones fotográficas en grilla masonry
+  // Lightbox global para cualquier colección
   const lightbox = document.getElementById('lightbox');
   if (lightbox) {
     const lbImg = document.getElementById('lb-img') as HTMLImageElement;
@@ -175,6 +152,7 @@ const isMasonry = MASONRY_SLUGS.has(coleccion.slug);
       activeIndex = (index + activeList.length) % activeList.length;
       const card = activeList[activeIndex];
       const imgUrl = card.dataset.img || '';
+      const pdfUrl = card.dataset.pdf || '';
       const title = card.dataset.title || '';
       const desc = card.dataset.desc || '';
       const href = card.dataset.href || '#';
@@ -186,7 +164,8 @@ const isMasonry = MASONRY_SLUGS.has(coleccion.slug);
       lbDesc.style.display = desc ? '' : 'none';
       lbCounter.textContent = `${activeIndex + 1} / ${activeList.length}`;
       lbHref.href = href;
-      lbFull.href = imgUrl;
+      lbFull.href = pdfUrl || imgUrl;
+      lbFull.textContent = pdfUrl ? 'Abrir PDF ↗' : 'Imagen original ↗';
 
       lbMeta.innerHTML = '';
       try {

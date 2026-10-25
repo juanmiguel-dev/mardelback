@@ -8,6 +8,7 @@ interface Props {
     title: string;
     slug: string;
     description?: string;
+    documentMimetype?: string;
     thumbnail?: string;
     thumbnailUrl?: string;
     document?: string;
@@ -20,8 +21,21 @@ interface Props {
 
 const { item, coleccionSlug } = Astro.props;
 
-const thumbSrc = item.thumbnail || item.thumbnailUrl || item.document || item.documentUrl || '';
-const fullSrc = item.document || item.documentUrl || item.thumbnail || item.thumbnailUrl || '';
+const isPdf =
+  /pdf/i.test(item.documentMimetype || '') ||
+  /\.pdf$/i.test((item.documentUrl || item.document || '').split('?')[0]);
+
+const thumbSrc =
+  item.thumbnail ||
+  item.thumbnailUrl ||
+  (!isPdf ? item.document || item.documentUrl : '') ||
+  '';
+const fullSrc =
+  (!isPdf ? item.document || item.documentUrl : '') ||
+  item.thumbnail ||
+  item.thumbnailUrl ||
+  '';
+const pdfSrc = isPdf ? item.document || item.documentUrl || '' : '';
 const detailHref = withBase(`colecciones/${coleccionSlug}/${item.slug}/`);
 
 const allMeta = item.metadata || [];
@@ -63,6 +77,7 @@ const lightboxMeta = allMeta
   data-photo-card
   data-search={`${item.title} ${fullDescription} ${allMeta.map((m) => m.value).join(' ')}`}
   data-img={fullSrc ? withBase(fullSrc) : ''}
+  data-pdf={pdfSrc ? withBase(pdfSrc) : ''}
   data-title={item.title}
   data-desc={fullDescription}
   data-meta={JSON.stringify(lightboxMeta)}
@@ -76,7 +91,7 @@ const lightboxMeta = allMeta
       </div>
     ) : (
       <div class="photo-card-media photo-card-media--empty">
-        <span class="cover-fallback">📷</span>
+        <span class="cover-fallback">📄</span>
       </div>
     )}
     <div class="photo-card-body">

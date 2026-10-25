@@ -36,7 +36,7 @@ const totalRegistros = fuente.colecciones.reduce((acc, c) => acc + c.items.lengt
     )}
   </section>
 
-  <section class="grid">
+  <section class="masonry">
     {fuente.colecciones.map((c) => (
       <CollectionCard coleccion={c} />
     ))}
