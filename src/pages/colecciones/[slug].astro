@@ -6,10 +6,12 @@ import { withBase } from '../../lib/urls';
 import fuentes from '../../data/fuentes.json';
 
 export function getStaticPaths() {
-  return fuentes.flatMap((fuente) => fuente.colecciones).map((coleccion) => ({
-    params: { slug: coleccion.slug },
-    props: { coleccion },
-  }));
+  return fuentes.flatMap((fuente) =>
+    fuente.colecciones.map((coleccion) => ({
+      params: { slug: coleccion.slug },
+      props: { coleccion, fuente },
+    })),
+  );
 }
 
 const MASONRY_SLUGS = new Set([
@@ -22,14 +24,20 @@ const MASONRY_SLUGS = new Set([
   'ex-libris',
 ]);
 
-const { coleccion } = Astro.props;
+const { coleccion, fuente } = Astro.props;
 const items = coleccion.items;
 const isMasonry = MASONRY_SLUGS.has(coleccion.slug);
 ---
 
 <Layout title={coleccion.name}>
   <nav class="breadcrumb">
-    <a href={withBase('/')}>Catálogo</a> / <span>{coleccion.name}</span>
+    <a href={withBase('/')}>Catálogo</a> /
+    {fuente.colecciones.length > 1 && (
+      <>
+        <a href={withBase(`fuentes/${fuente.id}/`)}>{fuente.nombre}</a> /
+      </>
+    )}
+    <span>{coleccion.name}</span>
   </nav>
 
   <section class="hero small" data-reveal>

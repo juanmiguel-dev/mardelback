@@ -8,13 +8,13 @@ export function getStaticPaths() {
     fuente.colecciones.flatMap((coleccion) =>
       coleccion.items.map((item) => ({
         params: { slug: coleccion.slug, item: item.slug },
-        props: { coleccion, item },
+        props: { coleccion, item, fuente },
       })),
     ),
   );
 }
 
-const { coleccion, item } = Astro.props;
+const { coleccion, item, fuente } = Astro.props;
 
 const isPdf =
   /pdf/i.test(item.documentMimetype || '') ||
@@ -32,6 +32,11 @@ const fields = allMeta.filter((m) => m.name !== 'Título' && m.name !== 'Descrip
 <Layout title={item.title}>
   <nav class="breadcrumb" data-reveal>
     <a href={withBase('/')}>Catálogo</a> /
+    {fuente.colecciones.length > 1 && (
+      <>
+        <a href={withBase(`fuentes/${fuente.id}/`)}>{fuente.nombre}</a> /
+      </>
+    )}
     <a href={withBase(`colecciones/${coleccion.slug}/`)}>{coleccion.name}</a> /
     <span>{item.title}</span>
   </nav>

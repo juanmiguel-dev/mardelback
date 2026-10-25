@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CollectionCard from '../../components/CollectionCard.astro';
+import { withBase } from '../../lib/urls';
+import fuentes from '../../data/fuentes.json';
+
+export function getStaticPaths() {
+  return fuentes.map((fuente) => ({
+    params: { id: fuente.id },
+    props: { fuente },
+  }));
+}
+
+const { fuente } = Astro.props;
+const totalRegistros = fuente.colecciones.reduce((acc, c) => acc + c.items.length, 0);
+---
+
+<Layout title={fuente.nombre} description={fuente.descripcion}>
+  <nav class="breadcrumb">
+    <a href={withBase('/')}>Catálogo</a> / <span>{fuente.nombre}</span>
+  </nav>
+
+  <section class="hero small" data-reveal>
+    <h1>{fuente.nombre}</h1>
+    <p>
+      {fuente.colecciones.length} {fuente.colecciones.length === 1 ? 'colección' : 'colecciones'} ·{' '}
+      {totalRegistros} {totalRegistros === 1 ? 'registro' : 'registros'}
+    </p>
+    {fuente.descripcion && <p class="hero-desc">{fuente.descripcion}</p>}
+    {fuente.url && (
+      <p style="margin-top: 10px; font-size: 0.9rem;">
+        <a href={fuente.url} target="_blank" rel="noopener">
+          Visitar fuente original ↗
+        </a>
+      </p>
+    )}
+  </section>
+
+  <section class="grid">
+    {fuente.colecciones.map((c) => (
+      <CollectionCard coleccion={c} />
+    ))}
+  </section>
+</Layout>

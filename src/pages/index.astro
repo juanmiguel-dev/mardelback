@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import CollectionCard from '../components/CollectionCard.astro';
+import { withBase } from '../lib/urls';
 import fuentes from '../data/fuentes.json';
 
 const totalColecciones = fuentes.reduce((acc, f) => acc + f.colecciones.length, 0);
@@ -20,23 +21,58 @@ const totalRegistros = fuentes.reduce(
   </section>
 
   {
-    fuentes.map((fuente) => (
-      <section class="fuente" data-reveal>
-        <header class="fuente-header">
-          <h2>{fuente.nombre}</h2>
-          {fuente.descripcion && <p>{fuente.descripcion}</p>}
-          {fuente.url && (
-            <a href={fuente.url} target="_blank" rel="noopener">
-              Visitar fuente ↗
-            </a>
-          )}
-        </header>
-        <div class="grid">
-          {fuente.colecciones.map((c) => (
-            <CollectionCard coleccion={c} />
-          ))}
-        </div>
-      </section>
-    ))
+    fuentes.map((fuente) => {
+      const hasMultiple = fuente.colecciones.length > 1;
+      const fuenteRegistros = fuente.colecciones.reduce((acc, c) => acc + c.items.length, 0);
+      const fuenteThumb =
+        fuente.colecciones.find((c) => c.slug === 'postales')?.thumbnail ||
+        fuente.colecciones[0]?.thumbnail ||
+        '';
+      const nombresColecciones = fuente.colecciones.map((c) => c.name).join(', ');
+
+      return (
+        <section class="fuente" data-reveal>
+          <header class="fuente-header">
+            <h2>{fuente.nombre}</h2>
+            {fuente.descripcion && <p>{fuente.descripcion}</p>}
+            {fuente.url && (
+              <a href={fuente.url} target="_blank" rel="noopener">
+                Visitar fuente ↗
+              </a>
+            )}
+          </header>
+          <div class="grid">
+            {hasMultiple ? (
+              <article class="card" data-reveal>
+                <a class="card-link" href={withBase(`fuentes/${fuente.id}/`)}>
+                  <div class="card-cover">
+                    {fuenteThumb ? (
+                      <img
+                        src={withBase(fuenteThumb)}
+                        alt={`Portada de ${fuente.nombre}`}
+                        loading="lazy"
+                      />
+                    ) : (
+                      <span class="cover-fallback">🏛️</span>
+                    )}
+                  </div>
+                  <div class="card-body">
+                    <h2 class="card-title">Catálogo de {fuente.nombre}</h2>
+                    <p class="card-meta">
+                      <span>
+                        {fuente.colecciones.length} colecciones · {fuenteRegistros} registros
+                      </span>
+                    </p>
+                    <p class="card-desc">Incluye: {nombresColecciones}.</p>
+                  </div>
+                </a>
+              </article>
+            ) : (
+              fuente.colecciones.map((c) => <CollectionCard coleccion={c} />)
+            )}
+          </div>
+        </section>
+      );
+    })
   }
 </Layout>
