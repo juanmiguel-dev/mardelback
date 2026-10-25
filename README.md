@@ -45,6 +45,19 @@ el sitio en cada push a `main`:
 - Para habilitar Pages: Settings → Pages → Build and deployment → Source: **GitHub Actions**
   (el workflow intenta habilitarlo automáticamente con `configure-pages`).
 
+## Publicación en Cloudflare Pages
+
+Cloudflare Pages limita los archivos a **25 MB**, y varios PDFs pesan más (hasta 92 MB).
+Por eso el build para Cloudflare **enlaza los PDF** al original en Tainacan y copia
+localmente sólo imágenes y portadas:
+
+```bash
+npm run build:cf    # fetch con --hotlink-pdfs + astro build (base "/")
+npx wrangler pages deploy dist --project-name mardelback
+```
+
+Sitio: https://mardelback.pages.dev/
+
 ## Nota sobre el visor
 
 Los PDF se muestran con la visualización nativa del navegador a través de un

@@ -15,6 +15,8 @@ const DATA_FILE = path.join(ROOT, 'src', 'data', 'colecciones.json');
 
 // Un archivo individual mayor a esto se enlaza en vez de descargarse.
 const MAX_MB = 400;
+// En Cloudflare Pages (límite de 25 MB/archivo) los PDF grandes se enlazan en vez de copiarse.
+const HOTLINK_PDFS = process.env.HOTLINK_PDFS === '1' || process.argv.includes('--hotlink-pdfs');
 
 const log = (...a) => console.log(...a);
 const mb = (n) =>
@@ -236,20 +238,24 @@ async function main() {
     await mapLimit(records, 4, async (rec) => {
       if (rec.docUrl) {
         const isPdf = /pdf/i.test(rec.documentMimetype) || /\.pdf$/i.test(rec.docUrl.split('?')[0]);
-        try {
-          const size = await remoteSize(rec.docUrl);
-          if (size > MAX_MB * 1024 * 1024) {
-            log(`  ⚠ #${rec.id}: documento ${mb(size)} > ${MAX_MB} MB → se enlaza`);
-          } else {
-            const ext = isPdf ? 'pdf' : extFrom(rec.documentMimetype || rec.docUrl);
-            const dir = isPdf ? PDF_DIR : MEDIA_DIR;
-            const dest = path.join(dir, `${rec.id}.${ext}`);
-            const r = await downloadTo(rec.docUrl, dest);
-            rec.document = `${isPdf ? '/pdfs' : '/media'}/${rec.id}.${ext}`;
-            log(`  ✔ #${rec.id} document (${mb(r.size)})${r.skipped ? ' [existente]' : ''}`);
+        if (isPdf && HOTLINK_PDFS) {
+          log(`  ⤴ #${rec.id}: PDF enlazado (sin copia local)`);
+        } else {
+          try {
+            const size = await remoteSize(rec.docUrl);
+            if (size > MAX_MB * 1024 * 1024) {
+              log(`  ⚠ #${rec.id}: documento ${mb(size)} > ${MAX_MB} MB → se enlaza`);
+            } else {
+              const ext = isPdf ? 'pdf' : extFrom(rec.documentMimetype || rec.docUrl);
+              const dir = isPdf ? PDF_DIR : MEDIA_DIR;
+              const dest = path.join(dir, `${rec.id}.${ext}`);
+              const r = await downloadTo(rec.docUrl, dest);
+              rec.document = `${isPdf ? '/pdfs' : '/media'}/${rec.id}.${ext}`;
+              log(`  ✔ #${rec.id} document (${mb(r.size)})${r.skipped ? ' [existente]' : ''}`);
+            }
+          } catch (e) {
+            log(`  ✖ #${rec.id} documento: ${e.message}`);
           }
-        } catch (e) {
-          log(`  ✖ #${rec.id} documento: ${e.message}`);
         }
       }
 
