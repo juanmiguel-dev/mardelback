@@ -1,5 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
+import { withBase } from '../../../lib/urls';
 import colecciones from '../../../data/colecciones.json';
 
 export function getStaticPaths() {
@@ -24,15 +25,15 @@ const coverSrc = isImage ? viewerSrc : item.thumbnail || item.document || '';
 
 <Layout title={item.title}>
   <nav class="breadcrumb">
-    <a href="/">Colecciones</a> /
-    <a href={`/colecciones/${coleccion.slug}/`}>{coleccion.name}</a> /
+    <a href={withBase('/')}>Colecciones</a> /
+    <a href={withBase(`colecciones/${coleccion.slug}/`)}>{coleccion.name}</a> /
     <span>{item.title}</span>
   </nav>
 
   <article class="detalle">
     <div class:list={['detalle-cover', { 'detalle-cover--image': isImage }]}>
       {coverSrc ? (
-        <img src={coverSrc} alt={item.title} />
+        <img src={withBase(coverSrc)} alt={item.title} />
       ) : (
         <span class="cover-fallback">📄</span>
       )}
@@ -57,12 +58,12 @@ const coverSrc = isImage ? viewerSrc : item.thumbnail || item.document || '';
 
       <div class="acciones">
         {viewerSrc && (
-          <a class="btn" href={viewerSrc} target="_blank" rel="noopener">
+          <a class="btn" href={withBase(viewerSrc)} target="_blank" rel="noopener">
             {isPdf ? 'Abrir PDF' : 'Ver documento'}
           </a>
         )}
         {item.document && (
-          <a class="btn btn-outline" href={item.document} download>
+          <a class="btn btn-outline" href={withBase(item.document)} download>
             Descargar
           </a>
         )}
@@ -78,7 +79,7 @@ const coverSrc = isImage ? viewerSrc : item.thumbnail || item.document || '';
   {isPdf && viewerSrc && (
     <section class="visor">
       <h2>Lectura en línea</h2>
-      <iframe class="visor-frame" src={viewerSrc} title={`PDF de ${item.title}`}></iframe>
+      <iframe class="visor-frame" src={withBase(viewerSrc)} title={`PDF de ${item.title}`}></iframe>
     </section>
   )}
 </Layout>

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ItemCard from '../../components/ItemCard.astro';
+import { withBase } from '../../lib/urls';
 import colecciones from '../../data/colecciones.json';
 
 export function getStaticPaths() {
@@ -16,7 +17,7 @@ const items = coleccion.items;
 
 <Layout title={coleccion.name}>
   <nav class="breadcrumb">
-    <a href="/">Colecciones</a> / <span>{coleccion.name}</span>
+    <a href={withBase('/')}>Colecciones</a> / <span>{coleccion.name}</span>
   </nav>
 
   <section class="hero small">

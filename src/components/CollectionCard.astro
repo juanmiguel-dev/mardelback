@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/urls';
+
 interface Props {
   coleccion: {
     id: number;
@@ -14,10 +16,10 @@ const { coleccion } = Astro.props;
 ---
 
 <article class="card">
-  <a class="card-link" href={`/colecciones/${coleccion.slug}/`}>
+  <a class="card-link" href={withBase(`colecciones/${coleccion.slug}/`)}>
     <div class="card-cover">
       {coleccion.thumbnail ? (
-        <img src={coleccion.thumbnail} alt={`Portada de ${coleccion.name}`} loading="lazy" />
+        <img src={withBase(coleccion.thumbnail)} alt={`Portada de ${coleccion.name}`} loading="lazy" />
       ) : (
         <span class="cover-fallback">📚</span>
       )}

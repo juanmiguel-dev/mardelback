@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { withBase } from '../lib/urls';
 
 interface Props {
   title?: string;
@@ -25,12 +26,12 @@ const metaDescription =
   <body>
     <header class="site-header">
       <div class="site-header-inner">
-        <a class="brand" href="/">
+        <a class="brand" href={withBase('/')}>
           <span class="brand-title">Colecciones</span>
           <span class="brand-sub">Biblioteca Central · UNMDP</span>
         </a>
         <nav class="site-nav">
-          <a href="/">Catálogo</a>
+          <a href={withBase('/')}>Catálogo</a>
           <a href="https://biblio1.mdp.edu.ar/colecciones/" target="_blank" rel="noopener">Sitio original</a>
         </nav>
       </div>

@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/urls';
+
 interface Props {
   item: {
     id: number;
@@ -16,10 +18,10 @@ const tags = (item.metadata || []).slice(0, 3);
 ---
 
 <article class="card" data-search={`${item.title} ${item.description || ''} ${(item.metadata || []).map((m) => m.value).join(' ')}`}>
-  <a class="card-link" href={`/colecciones/${coleccionSlug}/${item.slug}/`}>
+  <a class="card-link" href={withBase(`colecciones/${coleccionSlug}/${item.slug}/`)}>
     <div class="card-cover">
       {item.thumbnail ? (
-        <img src={item.thumbnail} alt={item.title} loading="lazy" />
+        <img src={withBase(item.thumbnail)} alt={item.title} loading="lazy" />
       ) : (
         <span class="cover-fallback">📄</span>
       )}

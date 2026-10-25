@@ -34,6 +34,17 @@ npm run preview  # previsualiza el build
 > Las descargas son incrementales: los archivos existentes no se vuelven a bajar.
 > Para actualizar por completo, borrá `public/pdfs`, `public/media` y `public/covers`.
 
+## Publicación en GitHub Pages
+
+El workflow [.github/workflows/deploy.yml](.github/workflows/deploy.yml) compila y publica
+el sitio en cada push a `main`:
+
+- URL: https://juanmiguel-dev.github.io/mardelback/
+- CI ejecuta `npm run fetch` (descarga los ~886 MB de PDFs e imágenes) y luego
+  `npm run build` con `GITHUB_PAGES=true`, que fija el `base` del sitio en `/mardelback/`.
+- Para habilitar Pages: Settings → Pages → Build and deployment → Source: **GitHub Actions**
+  (el workflow intenta habilitarlo automáticamente con `configure-pages`).
+
 ## Nota sobre el visor
 
 Los PDF se muestran con la visualización nativa del navegador a través de un
