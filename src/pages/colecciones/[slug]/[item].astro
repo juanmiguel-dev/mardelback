@@ -1,14 +1,16 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { withBase } from '../../../lib/urls';
-import colecciones from '../../../data/colecciones.json';
+import fuentes from '../../../data/fuentes.json';
 
 export function getStaticPaths() {
-  return colecciones.flatMap((coleccion) =>
-    coleccion.items.map((item) => ({
-      params: { slug: coleccion.slug, item: item.slug },
-      props: { coleccion, item },
-    })),
+  return fuentes.flatMap((fuente) =>
+    fuente.colecciones.flatMap((coleccion) =>
+      coleccion.items.map((item) => ({
+        params: { slug: coleccion.slug, item: item.slug },
+        props: { coleccion, item },
+      })),
+    ),
   );
 }
 
@@ -29,7 +31,7 @@ const fields = allMeta.filter((m) => m.name !== 'Título' && m.name !== 'Descrip
 
 <Layout title={item.title}>
   <nav class="breadcrumb" data-reveal>
-    <a href={withBase('/')}>Colecciones</a> /
+    <a href={withBase('/')}>Catálogo</a> /
     <a href={withBase(`colecciones/${coleccion.slug}/`)}>{coleccion.name}</a> /
     <span>{item.title}</span>
   </nav>

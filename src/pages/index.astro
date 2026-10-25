@@ -1,20 +1,42 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import CollectionCard from '../components/CollectionCard.astro';
-import colecciones from '../data/colecciones.json';
+import fuentes from '../data/fuentes.json';
 
-const totalRegistros = colecciones.reduce((acc, c) => acc + c.items.length, 0);
+const totalColecciones = fuentes.reduce((acc, f) => acc + f.colecciones.length, 0);
+const totalRegistros = fuentes.reduce(
+  (acc, f) => acc + f.colecciones.reduce((x, c) => x + c.items.length, 0),
+  0,
+);
 ---
 
-<Layout title="Colecciones digitales">
+<Layout>
   <section class="hero" data-reveal>
-    <h1>Colecciones digitales</h1>
-    <p>{colecciones.length} colecciones · {totalRegistros} registros · Biblioteca Central UNMDP</p>
+    <h1>MARDELBACK</h1>
+    <p>
+      {fuentes.length} {fuentes.length === 1 ? 'fuente' : 'fuentes'} · {totalColecciones} colecciones ·{' '}
+      {totalRegistros} registros
+    </p>
   </section>
 
-  <section class="grid">
-    {colecciones.map((c) => (
-      <CollectionCard coleccion={c} />
-    ))}
-  </section>
+  {
+    fuentes.map((fuente) => (
+      <section class="fuente" data-reveal>
+        <header class="fuente-header">
+          <h2>{fuente.nombre}</h2>
+          {fuente.descripcion && <p>{fuente.descripcion}</p>}
+          {fuente.url && (
+            <a href={fuente.url} target="_blank" rel="noopener">
+              Visitar fuente ↗
+            </a>
+          )}
+        </header>
+        <div class="grid">
+          {fuente.colecciones.map((c) => (
+            <CollectionCard coleccion={c} />
+          ))}
+        </div>
+      </section>
+    ))
+  }
 </Layout>

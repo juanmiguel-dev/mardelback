@@ -2,10 +2,10 @@
 import Layout from '../../layouts/Layout.astro';
 import ItemCard from '../../components/ItemCard.astro';
 import { withBase } from '../../lib/urls';
-import colecciones from '../../data/colecciones.json';
+import fuentes from '../../data/fuentes.json';
 
 export function getStaticPaths() {
-  return colecciones.map((coleccion) => ({
+  return fuentes.flatMap((fuente) => fuente.colecciones).map((coleccion) => ({
     params: { slug: coleccion.slug },
     props: { coleccion },
   }));
@@ -17,7 +17,7 @@ const items = coleccion.items;
 
 <Layout title={coleccion.name}>
   <nav class="breadcrumb">
-    <a href={withBase('/')}>Colecciones</a> / <span>{coleccion.name}</span>
+    <a href={withBase('/')}>Catálogo</a> / <span>{coleccion.name}</span>
   </nav>
 
   <section class="hero small" data-reveal>

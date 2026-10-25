@@ -8,10 +8,10 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const fullTitle = title ? `${title} · UNMDP` : 'Colecciones · UNMDP';
+const fullTitle = title ? `${title} · MARDELBACK` : 'MARDELBACK';
 const metaDescription =
   description ||
-  'Catálogo de las colecciones digitales de la Biblioteca Central de la Universidad Nacional de Mar del Plata.';
+  'MARDELBACK reúne colecciones y archivos digitales de Mar del Plata provenientes de distintas fuentes.';
 ---
 
 <!doctype html>
@@ -30,12 +30,11 @@ const metaDescription =
     <header class="site-header">
       <div class="site-header-inner">
         <a class="brand" href={withBase('/')}>
-          <span class="brand-title">Colecciones</span>
-          <span class="brand-sub">Biblioteca Central · UNMDP</span>
+          <span class="brand-title">MARDELBACK</span>
+          <span class="brand-sub">archivo digital de Mar del Plata</span>
         </a>
         <nav class="site-nav">
           <a href={withBase('/')}>Catálogo</a>
-          <a href="https://biblio1.mdp.edu.ar/colecciones/" target="_blank" rel="noopener">Sitio original</a>
         </nav>
       </div>
     </header>
@@ -47,13 +46,13 @@ const metaDescription =
     <footer class="site-footer">
       <div class="site-footer-inner">
         <p>
-          Datos obtenidos del repositorio de colecciones digitales de la Biblioteca
-          Central de la Universidad Nacional de Mar del Plata (Tainacan).
+          MARDELBACK reúne colecciones y archivos digitales de Mar del Plata
+          provenientes de distintas fuentes.
         </p>
         <p>
-          Fuente:{' '}
+          Fuente actual:{' '}
           <a href="https://biblio1.mdp.edu.ar/colecciones/" target="_blank" rel="noopener">
-            biblio1.mdp.edu.ar/colecciones/
+            Biblioteca Central · UNMDP
           </a>
         </p>
       </div>

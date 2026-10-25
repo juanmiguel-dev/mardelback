@@ -11,7 +11,15 @@ const PUBLIC = path.join(ROOT, 'public');
 const PDF_DIR = path.join(PUBLIC, 'pdfs');      // documentos PDF
 const MEDIA_DIR = path.join(PUBLIC, 'media');   // documentos que no son PDF (imágenes…)
 const COVER_DIR = path.join(PUBLIC, 'covers');  // miniaturas de ítems y colecciones
-const DATA_FILE = path.join(ROOT, 'src', 'data', 'colecciones.json');
+const DATA_FILE = path.join(ROOT, 'src', 'data', 'fuentes.json');
+// Fuente: nivel intermedio entre MARDELBACK y las colecciones.
+const FUENTE = {
+  id: 'biblioteca-central-unmdp',
+  nombre: 'Biblioteca Central · UNMDP',
+  descripcion:
+    'Repositorio de colecciones digitales de la Universidad Nacional de Mar del Plata (Tainacan).',
+  url: 'https://biblio1.mdp.edu.ar/colecciones/',
+};
 
 // Un archivo individual mayor a esto se enlaza en vez de descargarse.
 const MAX_MB = 400;
@@ -288,7 +296,9 @@ async function main() {
     });
   }
 
-  await writeFile(DATA_FILE, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
+  const fuentes = [{ ...FUENTE, colecciones: result }];
+
+  await writeFile(DATA_FILE, `${JSON.stringify(fuentes, null, 2)}\n`, 'utf8');
 
   const totalItems = result.reduce((a, c) => a + c.items.length, 0);
   const conDoc = result.reduce((a, c) => a + c.items.filter((i) => i.document).length, 0);
