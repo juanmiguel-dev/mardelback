@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import CollectionCard from '../components/CollectionCard.astro';
 import { withBase } from '../lib/urls';
+import { shortDescription } from '../lib/text';
 import fuentes from '../data/fuentes.json';
 
 const totalColecciones = fuentes.reduce((acc, f) => acc + f.colecciones.length, 0);
@@ -9,6 +9,36 @@ const totalRegistros = fuentes.reduce(
   (acc, f) => acc + f.colecciones.reduce((x, c) => x + c.items.length, 0),
   0,
 );
+
+const homeCards = fuentes.map((fuente) => {
+  const hasMultiple = fuente.colecciones.length > 1;
+  if (hasMultiple) {
+    const fuenteRegistros = fuente.colecciones.reduce((acc, c) => acc + c.items.length, 0);
+    const thumb =
+      fuente.colecciones.find((c) => c.slug === 'postales')?.thumbnail ||
+      fuente.colecciones[0]?.thumbnail ||
+      '';
+    const nombres = fuente.colecciones.map((c) => c.name).join(', ');
+    return {
+      href: withBase(`fuentes/${fuente.id}/`),
+      thumb,
+      kicker: fuente.nombre,
+      title: `Catálogo ${fuente.nombre}`,
+      meta: `${fuente.colecciones.length} colecciones · ${fuenteRegistros} registros`,
+      desc: shortDescription(`Incluye: ${nombres}.`, 140),
+    };
+  }
+
+  const c = fuente.colecciones[0];
+  return {
+    href: withBase(`colecciones/${c.slug}/`),
+    thumb: c.thumbnail || '',
+    kicker: fuente.nombre,
+    title: c.name,
+    meta: `${c.itemCount} ${c.itemCount === 1 ? 'registro' : 'registros'}`,
+    desc: shortDescription(c.description || fuente.descripcion, 140),
+  };
+});
 ---
 
 <Layout>
@@ -20,59 +50,29 @@ const totalRegistros = fuentes.reduce(
     </p>
   </section>
 
-  {
-    fuentes.map((fuente) => {
-      const hasMultiple = fuente.colecciones.length > 1;
-      const fuenteRegistros = fuente.colecciones.reduce((acc, c) => acc + c.items.length, 0);
-      const fuenteThumb =
-        fuente.colecciones.find((c) => c.slug === 'postales')?.thumbnail ||
-        fuente.colecciones[0]?.thumbnail ||
-        '';
-      const nombresColecciones = fuente.colecciones.map((c) => c.name).join(', ');
-
-      return (
-        <section class="fuente" data-reveal>
-          <header class="fuente-header">
-            <h2>{fuente.nombre}</h2>
-            {fuente.descripcion && <p>{fuente.descripcion}</p>}
-            {fuente.url && (
-              <a href={fuente.url} target="_blank" rel="noopener">
-                Visitar fuente ↗
-              </a>
-            )}
-          </header>
-          <div class="grid">
-            {hasMultiple ? (
-              <article class="card" data-reveal>
-                <a class="card-link" href={withBase(`fuentes/${fuente.id}/`)}>
-                  <div class="card-cover">
-                    {fuenteThumb ? (
-                      <img
-                        src={withBase(fuenteThumb)}
-                        alt={`Portada de ${fuente.nombre}`}
-                        loading="lazy"
-                      />
-                    ) : (
-                      <span class="cover-fallback">🏛️</span>
-                    )}
-                  </div>
-                  <div class="card-body">
-                    <h2 class="card-title">Catálogo de {fuente.nombre}</h2>
-                    <p class="card-meta">
-                      <span>
-                        {fuente.colecciones.length} colecciones · {fuenteRegistros} registros
-                      </span>
-                    </p>
-                    <p class="card-desc">Incluye: {nombresColecciones}.</p>
-                  </div>
-                </a>
-              </article>
-            ) : (
-              fuente.colecciones.map((c) => <CollectionCard coleccion={c} />)
-            )}
-          </div>
-        </section>
-      );
-    })
-  }
+  <section class="grid grid-3">
+    {
+      homeCards.map((card) => (
+        <article class="card" data-reveal>
+          <a class="card-link" href={card.href}>
+            <div class="card-cover">
+              {card.thumb ? (
+                <img src={withBase(card.thumb)} alt={`Portada de ${card.title}`} loading="lazy" />
+              ) : (
+                <span class="cover-fallback">🏛️</span>
+              )}
+            </div>
+            <div class="card-body">
+              <span class="photo-card-kicker">{card.kicker}</span>
+              <h2 class="card-title">{card.title}</h2>
+              <p class="card-meta">
+                <span>{card.meta}</span>
+              </p>
+              {card.desc && <p class="card-desc">{card.desc}</p>}
+            </div>
+          </a>
+        </article>
+      ))
+    }
+  </section>
 </Layout>
