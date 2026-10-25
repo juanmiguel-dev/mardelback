@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ItemCard from '../../components/ItemCard.astro';
+import PhotoCard from '../../components/PhotoCard.astro';
 import { withBase } from '../../lib/urls';
 import fuentes from '../../data/fuentes.json';
 
@@ -11,8 +12,18 @@ export function getStaticPaths() {
   }));
 }
 
+const MASONRY_SLUGS = new Set([
+  'la-historia-de-mar-del-plata-en-50-fotos',
+  'fotografias',
+  'postales',
+  'chalets-de-mar-del-plata',
+  'publicidades',
+  'ex-libris',
+]);
+
 const { coleccion } = Astro.props;
 const items = coleccion.items;
+const isMasonry = MASONRY_SLUGS.has(coleccion.slug);
 ---
 
 <Layout title={coleccion.name}>
@@ -32,11 +43,76 @@ const items = coleccion.items;
 
   <p id="result-count" class="result-count"></p>
 
-  <section class="grid" id="grid">
-    {items.map((item) => (
-      <ItemCard item={item} coleccionSlug={coleccion.slug} />
-    ))}
-  </section>
+  {isMasonry ? (
+    <section class="masonry" id="grid">
+      {items.map((item) => (
+        <PhotoCard item={item} coleccionSlug={coleccion.slug} />
+      ))}
+    </section>
+  ) : (
+    <section class="grid" id="grid">
+      {items.map((item) => (
+        <ItemCard item={item} coleccionSlug={coleccion.slug} />
+      ))}
+    </section>
+  )}
+
+  {isMasonry && (
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="lightbox-backdrop" data-lightbox-close></div>
+      <div class="lightbox-dialog" role="document">
+        <header class="lightbox-header">
+          <span class="lightbox-counter" id="lb-counter"></span>
+          <button
+            type="button"
+            class="lightbox-btn lightbox-close"
+            data-lightbox-close
+            aria-label="Cerrar visor"
+          >
+            ✕
+          </button>
+        </header>
+
+        <div class="lightbox-stage">
+          <button
+            type="button"
+            class="lightbox-btn lightbox-nav lightbox-prev"
+            id="lb-prev"
+            aria-label="Foto anterior"
+          >
+            ‹
+          </button>
+          <figure class="lightbox-figure">
+            <img id="lb-img" src="" alt="" />
+          </figure>
+          <button
+            type="button"
+            class="lightbox-btn lightbox-nav lightbox-next"
+            id="lb-next"
+            aria-label="Foto siguiente"
+          >
+            ›
+          </button>
+        </div>
+
+        <footer class="lightbox-footer">
+          <div class="lightbox-info">
+            <h2 class="lightbox-title" id="lb-title"></h2>
+            <p class="lightbox-desc" id="lb-desc"></p>
+            <div class="lightbox-meta" id="lb-meta"></div>
+          </div>
+          <div class="lightbox-actions">
+            <a class="btn btn-sm" id="lb-href" href="#">
+              Ver ficha
+            </a>
+            <a class="btn btn-outline btn-sm" id="lb-full" href="#" target="_blank" rel="noopener">
+              Imagen original ↗
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  )}
 </Layout>
 
 <script>
@@ -61,4 +137,106 @@ const items = coleccion.items;
 
   search.addEventListener('input', applyFilter);
   applyFilter();
+
+  // Lightbox para colecciones fotográficas en grilla masonry
+  const lightbox = document.getElementById('lightbox');
+  if (lightbox) {
+    const lbImg = document.getElementById('lb-img') as HTMLImageElement;
+    const lbTitle = document.getElementById('lb-title') as HTMLElement;
+    const lbDesc = document.getElementById('lb-desc') as HTMLElement;
+    const lbMeta = document.getElementById('lb-meta') as HTMLElement;
+    const lbCounter = document.getElementById('lb-counter') as HTMLElement;
+    const lbHref = document.getElementById('lb-href') as HTMLAnchorElement;
+    const lbFull = document.getElementById('lb-full') as HTMLAnchorElement;
+    const lbPrev = document.getElementById('lb-prev') as HTMLButtonElement;
+    const lbNext = document.getElementById('lb-next') as HTMLButtonElement;
+
+    let activeList: HTMLElement[] = [];
+    let activeIndex = 0;
+
+    function getVisiblePhotoCards(): HTMLElement[] {
+      return cards.filter(
+        (c) => c.style.display !== 'none' && Boolean(c.dataset.img),
+      );
+    }
+
+    function renderSlide(index: number) {
+      if (!activeList.length) return;
+      activeIndex = (index + activeList.length) % activeList.length;
+      const card = activeList[activeIndex];
+      const imgUrl = card.dataset.img || '';
+      const title = card.dataset.title || '';
+      const desc = card.dataset.desc || '';
+      const href = card.dataset.href || '#';
+
+      lbImg.src = imgUrl;
+      lbImg.alt = title;
+      lbTitle.textContent = title;
+      lbDesc.textContent = desc;
+      lbDesc.style.display = desc ? '' : 'none';
+      lbCounter.textContent = `${activeIndex + 1} / ${activeList.length}`;
+      lbHref.href = href;
+      lbFull.href = imgUrl;
+
+      lbMeta.innerHTML = '';
+      try {
+        const meta: { name: string; value: string }[] = JSON.parse(card.dataset.meta || '[]');
+        for (const m of meta) {
+          const chip = document.createElement('span');
+          chip.className = 'lightbox-chip';
+          chip.textContent = `${m.name}: ${m.value}`;
+          lbMeta.appendChild(chip);
+        }
+        lbMeta.style.display = meta.length ? 'flex' : 'none';
+      } catch {
+        lbMeta.style.display = 'none';
+      }
+
+      const showNav = activeList.length > 1;
+      lbPrev.style.display = showNav ? '' : 'none';
+      lbNext.style.display = showNav ? '' : 'none';
+    }
+
+    function openLightbox(card: HTMLElement) {
+      activeList = getVisiblePhotoCards();
+      const idx = activeList.indexOf(card);
+      if (idx === -1) return;
+      renderSlide(idx);
+      lightbox.classList.add('is-open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('is-open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      lbImg.src = '';
+    }
+
+    for (const card of cards) {
+      const link = card.querySelector<HTMLAnchorElement>('[data-lightbox-trigger]');
+      if (!link) continue;
+      link.addEventListener('click', (e) => {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+        if (!card.dataset.img) return;
+        e.preventDefault();
+        openLightbox(card);
+      });
+    }
+
+    lbPrev.addEventListener('click', () => renderSlide(activeIndex - 1));
+    lbNext.addEventListener('click', () => renderSlide(activeIndex + 1));
+
+    lightbox.querySelectorAll('[data-lightbox-close]').forEach((el) => {
+      el.addEventListener('click', closeLightbox);
+    });
+
+    window.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('is-open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      else if (e.key === 'ArrowLeft') renderSlide(activeIndex - 1);
+      else if (e.key === 'ArrowRight') renderSlide(activeIndex + 1);
+    });
+  }
 </script>

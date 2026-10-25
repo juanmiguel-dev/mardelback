@@ -73,7 +73,7 @@ async function main() {
     documentMimetype: 'image/jpeg',
     document: '',
     documentUrl: f.imageUrl,
-    thumbnail: '',
+    thumbnail: f.imageUrl,
     thumbnailUrl: f.imageUrl,
     metadata: [],
   }));

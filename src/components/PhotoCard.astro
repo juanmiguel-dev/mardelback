@@ -1,0 +1,91 @@
+---
+import { withBase } from '../lib/urls';
+import { shortDescription } from '../lib/text';
+
+interface Props {
+  item: {
+    id: number;
+    title: string;
+    slug: string;
+    description?: string;
+    thumbnail?: string;
+    thumbnailUrl?: string;
+    document?: string;
+    documentUrl?: string;
+    urlOriginal?: string;
+    metadata?: { name: string; value: string }[];
+  };
+  coleccionSlug: string;
+}
+
+const { item, coleccionSlug } = Astro.props;
+
+const thumbSrc = item.thumbnail || item.thumbnailUrl || item.document || item.documentUrl || '';
+const fullSrc = item.document || item.documentUrl || item.thumbnail || item.thumbnailUrl || '';
+const detailHref = withBase(`colecciones/${coleccionSlug}/${item.slug}/`);
+
+const allMeta = item.metadata || [];
+const fullDescription =
+  item.description || allMeta.find((m) => m.name === 'Descripción')?.value || '';
+
+const metaSummary = shortDescription(
+  allMeta
+    .filter(
+      (m) =>
+        m.name !== 'Título' &&
+        m.name !== 'Descripción' &&
+        !/^https?:\/\//i.test(m.value.trim()) &&
+        m.value.trim().length > 2,
+    )
+    .slice(0, 3)
+    .map((m) => m.value)
+    .join(' · '),
+  200,
+);
+
+const caption = shortDescription(fullDescription, 340) || metaSummary;
+const isGenericPhotoTitle = /^Foto\s+\d+$/i.test(item.title.trim());
+
+const lightboxMeta = allMeta
+  .filter(
+    (m) =>
+      m.name !== 'Título' &&
+      m.name !== 'Descripción' &&
+      !/^https?:\/\//i.test(m.value.trim()) &&
+      m.value.trim().length > 2,
+  )
+  .slice(0, 6);
+---
+
+<article
+  class="card photo-card"
+  data-reveal
+  data-photo-card
+  data-search={`${item.title} ${fullDescription} ${allMeta.map((m) => m.value).join(' ')}`}
+  data-img={fullSrc ? withBase(fullSrc) : ''}
+  data-title={item.title}
+  data-desc={fullDescription}
+  data-meta={JSON.stringify(lightboxMeta)}
+  data-href={detailHref}
+>
+  <a class="photo-card-link" href={detailHref} data-lightbox-trigger>
+    {thumbSrc ? (
+      <div class="photo-card-media">
+        <img src={withBase(thumbSrc)} alt={item.title} loading="lazy" decoding="async" />
+        <span class="photo-card-zoom" aria-hidden="true">⤢</span>
+      </div>
+    ) : (
+      <div class="photo-card-media photo-card-media--empty">
+        <span class="cover-fallback">📷</span>
+      </div>
+    )}
+    <div class="photo-card-body">
+      {isGenericPhotoTitle ? (
+        <span class="photo-card-kicker">{item.title}</span>
+      ) : (
+        <h2 class="photo-card-title">{item.title}</h2>
+      )}
+      {caption && <p class="photo-card-desc">{caption}</p>}
+    </div>
+  </a>
+</article>

@@ -9,12 +9,16 @@ interface Props {
     slug: string;
     description?: string;
     thumbnail?: string;
+    thumbnailUrl?: string;
+    document?: string;
+    documentUrl?: string;
     metadata?: { name: string; value: string }[];
   };
   coleccionSlug: string;
 }
 
 const { item, coleccionSlug } = Astro.props;
+const thumbSrc = item.thumbnail || item.thumbnailUrl || '';
 
 const summary =
   shortDescription(item.description, 140) ||
@@ -31,8 +35,8 @@ const summary =
 >
   <a class="card-link" href={withBase(`colecciones/${coleccionSlug}/${item.slug}/`)}>
     <div class="card-cover">
-      {item.thumbnail ? (
-        <img src={withBase(item.thumbnail)} alt={item.title} loading="lazy" />
+      {thumbSrc ? (
+        <img src={withBase(thumbSrc)} alt={item.title} loading="lazy" />
       ) : (
         <span class="cover-fallback">📄</span>
       )}
