@@ -1,0 +1,39 @@
+---
+interface Props {
+  item: {
+    id: number;
+    title: string;
+    slug: string;
+    description?: string;
+    thumbnail?: string;
+    metadata?: { name: string; value: string }[];
+  };
+  coleccionSlug: string;
+}
+
+const { item, coleccionSlug } = Astro.props;
+const tags = (item.metadata || []).slice(0, 3);
+---
+
+<article class="card" data-search={`${item.title} ${item.description || ''} ${(item.metadata || []).map((m) => m.value).join(' ')}`}>
+  <a class="card-link" href={`/colecciones/${coleccionSlug}/${item.slug}/`}>
+    <div class="card-cover">
+      {item.thumbnail ? (
+        <img src={item.thumbnail} alt={item.title} loading="lazy" />
+      ) : (
+        <span class="cover-fallback">📄</span>
+      )}
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">{item.title}</h2>
+      {item.description && <p class="card-desc">{item.description}</p>}
+      {tags.length > 0 && (
+        <ul class="card-tags">
+          {tags.map((t) => (
+            <li>{t.value}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </a>
+</article>

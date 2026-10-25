@@ -1,0 +1,15 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# generated / downloaded data (se regeneran con `npm run fetch`)
+public/pdfs/
+public/media/
+public/covers/
+
+# misc
+.DS_Store
+*.log

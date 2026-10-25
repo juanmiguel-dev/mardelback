@@ -1,0 +1,58 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const fullTitle = title ? `${title} · UNMDP` : 'Colecciones · UNMDP';
+const metaDescription =
+  description ||
+  'Catálogo de las colecciones digitales de la Biblioteca Central de la Universidad Nacional de Mar del Plata.';
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={metaDescription} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="/">
+          <span class="brand-title">Colecciones</span>
+          <span class="brand-sub">Biblioteca Central · UNMDP</span>
+        </a>
+        <nav class="site-nav">
+          <a href="/">Catálogo</a>
+          <a href="https://biblio1.mdp.edu.ar/colecciones/" target="_blank" rel="noopener">Sitio original</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <p>
+          Datos obtenidos del repositorio de colecciones digitales de la Biblioteca
+          Central de la Universidad Nacional de Mar del Plata (Tainacan).
+        </p>
+        <p>
+          Fuente:{' '}
+          <a href="https://biblio1.mdp.edu.ar/colecciones/" target="_blank" rel="noopener">
+            biblio1.mdp.edu.ar/colecciones/
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

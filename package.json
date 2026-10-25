@@ -1,0 +1,16 @@
+{
+  "name": "catalogo-revistas",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Catálogo de revistas en texto completo de la Biblioteca Central de la UNMDP, generado con Astro a partir de la API de Tainacan.",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch": "node scripts/fetch-catalogo.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+---
+interface Props {
+  coleccion: {
+    id: number;
+    name: string;
+    slug: string;
+    description?: string;
+    itemCount: number;
+    thumbnail?: string;
+  };
+}
+
+const { coleccion } = Astro.props;
+---
+
+<article class="card">
+  <a class="card-link" href={`/colecciones/${coleccion.slug}/`}>
+    <div class="card-cover">
+      {coleccion.thumbnail ? (
+        <img src={coleccion.thumbnail} alt={`Portada de ${coleccion.name}`} loading="lazy" />
+      ) : (
+        <span class="cover-fallback">📚</span>
+      )}
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">{coleccion.name}</h2>
+      <p class="card-meta">
+        <span>{coleccion.itemCount} {coleccion.itemCount === 1 ? 'registro' : 'registros'}</span>
+      </p>
+      {coleccion.description && <p class="card-desc">{coleccion.description}</p>}
+    </div>
+  </a>
+</article>

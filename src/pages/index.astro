@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CollectionCard from '../components/CollectionCard.astro';
+import colecciones from '../data/colecciones.json';
+
+const totalRegistros = colecciones.reduce((acc, c) => acc + c.items.length, 0);
+---
+
+<Layout title="Colecciones digitales">
+  <section class="hero">
+    <h1>Colecciones digitales</h1>
+    <p>{colecciones.length} colecciones · {totalRegistros} registros · Biblioteca Central UNMDP</p>
+  </section>
+
+  <section class="grid">
+    {colecciones.map((c) => (
+      <CollectionCard coleccion={c} />
+    ))}
+  </section>
+</Layout>
