@@ -360,33 +360,52 @@ img {
   font-size: 0.82rem;
   letter-spacing: 0.01em;
 }
+.desc-block {
+  margin: 0 0 26px;
+}
+.desc-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--faint);
+  margin-bottom: 6px;
+}
 .detalle-desc {
-  margin: 0 0 20px;
+  margin: 0;
   color: var(--muted);
   font-size: 1rem;
+  line-height: 1.6;
   max-width: 72ch;
 }
 
 .metadatos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 44px;
   margin: 0 0 28px;
 }
 .metadatos > div {
-  padding: 14px 0;
-  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
 }
 .metadatos dt {
-  font-size: 0.72rem;
+  font-size: 0.78rem;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   color: var(--faint);
-  margin-bottom: 3px;
+  white-space: nowrap;
 }
 .metadatos dd {
   margin: 0;
   font-size: 0.95rem;
+  text-align: right;
 }
 .metadatos .full {
   grid-column: 1 / -1;
@@ -484,6 +503,9 @@ img {
   .detalle-cover {
     position: static;
     max-width: 340px;
+  }
+  .metadatos {
+    grid-template-columns: 1fr;
   }
   .site-header-inner {
     flex-direction: column;

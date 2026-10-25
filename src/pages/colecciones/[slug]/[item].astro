@@ -21,6 +21,10 @@ const isImage = !isPdf && /^image\//.test(item.documentMimetype || '');
 
 const docSrc = item.document || item.documentUrl || '';
 const thumbSrc = item.thumbnail || item.thumbnailUrl || '';
+
+const allMeta = item.metadata || [];
+const description = item.description || allMeta.find((m) => m.name === 'Descripción')?.value || '';
+const fields = allMeta.filter((m) => m.name !== 'Título' && m.name !== 'Descripción');
 ---
 
 <Layout title={item.title}>
@@ -46,11 +50,16 @@ const thumbSrc = item.thumbnail || item.thumbnailUrl || '';
     <div class="detalle-info" data-reveal>
       <h1>{item.title}</h1>
       <span class="detalle-vol">{coleccion.name}</span>
-      {item.description && <p class="detalle-desc">{item.description}</p>}
+      {description && (
+        <div class="desc-block">
+          <span class="desc-label">Descripción</span>
+          <p class="detalle-desc">{description}</p>
+        </div>
+      )}
 
-      {item.metadata && item.metadata.length > 0 && (
+      {fields.length > 0 && (
         <dl class="metadatos">
-          {item.metadata.map((m) => (
+          {fields.map((m) => (
             <div>
               <dt>{m.name}</dt>
               <dd>{m.value}</dd>
