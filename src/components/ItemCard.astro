@@ -1,5 +1,6 @@
 ---
 import { withBase } from '../lib/urls';
+import { shortDescription } from '../lib/text';
 
 interface Props {
   item: {
@@ -14,10 +15,19 @@ interface Props {
 }
 
 const { item, coleccionSlug } = Astro.props;
-const tags = (item.metadata || []).slice(0, 3);
+
+const summary =
+  shortDescription(item.description, 140) ||
+  shortDescription(
+    (item.metadata || []).slice(0, 3).map((m) => m.value).join(' · '),
+    140,
+  );
 ---
 
-<article class="card" data-search={`${item.title} ${item.description || ''} ${(item.metadata || []).map((m) => m.value).join(' ')}`}>
+<article
+  class="card"
+  data-search={`${item.title} ${item.description || ''} ${(item.metadata || []).map((m) => m.value).join(' ')}`}
+>
   <a class="card-link" href={withBase(`colecciones/${coleccionSlug}/${item.slug}/`)}>
     <div class="card-cover">
       {item.thumbnail ? (
@@ -28,14 +38,7 @@ const tags = (item.metadata || []).slice(0, 3);
     </div>
     <div class="card-body">
       <h2 class="card-title">{item.title}</h2>
-      {item.description && <p class="card-desc">{item.description}</p>}
-      {tags.length > 0 && (
-        <ul class="card-tags">
-          {tags.map((t) => (
-            <li>{t.value}</li>
-          ))}
-        </ul>
-      )}
+      {summary && <p class="card-desc">{summary}</p>}
     </div>
   </a>
 </article>

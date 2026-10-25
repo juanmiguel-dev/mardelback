@@ -1,5 +1,6 @@
 ---
 import { withBase } from '../lib/urls';
+import { shortDescription } from '../lib/text';
 
 interface Props {
   coleccion: {
@@ -13,6 +14,7 @@ interface Props {
 }
 
 const { coleccion } = Astro.props;
+const desc = shortDescription(coleccion.description, 150);
 ---
 
 <article class="card">
@@ -29,7 +31,7 @@ const { coleccion } = Astro.props;
       <p class="card-meta">
         <span>{coleccion.itemCount} {coleccion.itemCount === 1 ? 'registro' : 'registros'}</span>
       </p>
-      {coleccion.description && <p class="card-desc">{coleccion.description}</p>}
+      {desc && <p class="card-desc">{desc}</p>}
     </div>
   </a>
 </article>
