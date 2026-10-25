@@ -12,6 +12,7 @@
     "fetch:cf": "node scripts/fetch-catalogo.mjs --hotlink-pdfs && node scripts/build-fuentes.mjs",
     "fetch:infobae": "node scripts/fetch-infobae.mjs",
     "fetch:concejo": "node scripts/fetch-concejo.mjs",
+    "fetch:fotosfamilia": "node scripts/fetch-fotosfamilia.mjs",
     "build:cf": "npm run fetch:cf && astro build"
   },
   "dependencies": {

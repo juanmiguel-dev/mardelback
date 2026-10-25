@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 
 // Combina las fuentes disponibles (un archivo por fuente) en src/data/fuentes.json.
 // Orden: primero UNMDP (la fuente base), luego las demás.
-const ORDER = ['unmdp', 'infobae', 'concejo'];
+const ORDER = ['unmdp', 'infobae', 'concejo', 'fotosfamilia'];
 
 const dataPath = (name) => fileURLToPath(new URL(`../src/data/${name}`, import.meta.url));
 
