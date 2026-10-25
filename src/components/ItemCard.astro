@@ -26,6 +26,7 @@ const summary =
 
 <article
   class="card"
+  data-reveal
   data-search={`${item.title} ${item.description || ''} ${(item.metadata || []).map((m) => m.value).join(' ')}`}
 >
   <a class="card-link" href={withBase(`colecciones/${coleccionSlug}/${item.slug}/`)}>

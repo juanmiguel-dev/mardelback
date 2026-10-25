@@ -20,7 +20,7 @@ const items = coleccion.items;
     <a href={withBase('/')}>Colecciones</a> / <span>{coleccion.name}</span>
   </nav>
 
-  <section class="hero small">
+  <section class="hero small" data-reveal>
     <h1>{coleccion.name}</h1>
     <p>{items.length} {items.length === 1 ? 'registro' : 'registros'}</p>
     {coleccion.description && <p class="hero-desc">{coleccion.description}</p>}

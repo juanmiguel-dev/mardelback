@@ -19,30 +19,33 @@ const isPdf =
   /\.pdf$/i.test((item.documentUrl || '').split('?')[0]);
 const isImage = !isPdf && /^image\//.test(item.documentMimetype || '');
 
-const viewerSrc = item.document || item.documentUrl || '';
-const coverSrc = isImage ? viewerSrc : item.thumbnail || item.document || '';
+const docSrc = item.document || item.documentUrl || '';
+const thumbSrc = item.thumbnail || item.thumbnailUrl || '';
 ---
 
 <Layout title={item.title}>
-  <nav class="breadcrumb">
+  <nav class="breadcrumb" data-reveal>
     <a href={withBase('/')}>Colecciones</a> /
     <a href={withBase(`colecciones/${coleccion.slug}/`)}>{coleccion.name}</a> /
     <span>{item.title}</span>
   </nav>
 
-  <article class="detalle">
-    <div class:list={['detalle-cover', { 'detalle-cover--image': isImage }]}>
-      {coverSrc ? (
-        <img src={withBase(coverSrc)} alt={item.title} />
-      ) : (
-        <span class="cover-fallback">📄</span>
-      )}
-    </div>
+  <article class:list={['detalle', { 'detalle--single': isImage }]}>
+    {
+      !isImage && (
+        <div class="detalle-cover" data-reveal>
+          {thumbSrc ? (
+            <img src={withBase(thumbSrc)} alt={`Portada de ${item.title}`} />
+          ) : (
+            <span class="cover-fallback">📄</span>
+          )}
+        </div>
+      )
+    }
 
-    <div class="detalle-info">
+    <div class="detalle-info" data-reveal>
       <h1>{item.title}</h1>
-      <p class="detalle-vol">{coleccion.name}</p>
-
+      <span class="detalle-vol">{coleccion.name}</span>
       {item.description && <p class="detalle-desc">{item.description}</p>}
 
       {item.metadata && item.metadata.length > 0 && (
@@ -57,9 +60,9 @@ const coverSrc = isImage ? viewerSrc : item.thumbnail || item.document || '';
       )}
 
       <div class="acciones">
-        {viewerSrc && (
-          <a class="btn" href={withBase(viewerSrc)} target="_blank" rel="noopener">
-            {isPdf ? 'Abrir PDF' : 'Ver documento'}
+        {docSrc && (
+          <a class="btn" href={withBase(docSrc)} target="_blank" rel="noopener">
+            {isPdf ? 'Abrir PDF' : 'Ver imagen completa'}
           </a>
         )}
         {item.document && (
@@ -69,17 +72,24 @@ const coverSrc = isImage ? viewerSrc : item.thumbnail || item.document || '';
         )}
         {item.urlOriginal && (
           <a class="btn btn-outline" href={item.urlOriginal} target="_blank" rel="noopener">
-            Ver ficha original
+            Ficha original
           </a>
         )}
       </div>
     </div>
   </article>
 
-  {isPdf && viewerSrc && (
-    <section class="visor">
+  {isPdf && docSrc && (
+    <section class="visor" data-reveal>
       <h2>Lectura en línea</h2>
-      <iframe class="visor-frame" src={withBase(viewerSrc)} title={`PDF de ${item.title}`}></iframe>
+      <iframe class="visor-frame" src={withBase(docSrc)} title={`PDF de ${item.title}`}></iframe>
+    </section>
+  )}
+
+  {isImage && docSrc && (
+    <section class="visor" data-reveal>
+      <h2>Documento</h2>
+      <img class="visor-img" src={withBase(docSrc)} alt={item.title} loading="lazy" />
     </section>
   )}
 </Layout>

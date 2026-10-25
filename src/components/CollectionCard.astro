@@ -17,7 +17,7 @@ const { coleccion } = Astro.props;
 const desc = shortDescription(coleccion.description, 150);
 ---
 
-<article class="card">
+<article class="card" data-reveal>
   <a class="card-link" href={withBase(`colecciones/${coleccion.slug}/`)}>
     <div class="card-cover">
       {coleccion.thumbnail ? (
